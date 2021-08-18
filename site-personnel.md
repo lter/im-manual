@@ -1,25 +1,26 @@
 # Site Personnel Lists 
 
 ## Overview
-The LTERHub has two parts
+Marty is working on an overview diagram to go here that explains what kind of information is stored how in LTERHub. The biggest difference from past practice is that affiliations with sites or institutions are stored separately from the individual. 
 
 
 ## Individual updates
 
 To add key personnel to your site between major updates, [create a ticket in LTERHub](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, email address. The LNO will create a user for them and trigger a message to login and fill in other key information.
 
-Once a user is created and they have logged in, they are able to update their own information (including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests.
+Once a user is created and they have logged in, they are able to update their own information including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests.
 
 ## Making bulk updates
 
-Create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER:
+Create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER. Upload the file as an attachment to a case in the LTERhub using the case reason "new participant."
+
 |Site|First Name|Last Name|Middle Name|email address|Status\* |Site_Role_1\*\* |Role_1_end|Site_Role_2|Role_2_start|
 |---|---|---|---|---|---|---|---|---|---|
 |ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|n/a|n/a|n/a|
 |DEF|Joe|F|Biogeochemist|jbiogeochemist@institution.edu|Current|Information Manager|n/a|Investigator|2021|
 |XYZ|James|T|Callahan|callahan@nsf.gov|Former|Investigator|1999|Retired|1999|
 
-New participants will receive an automatic email from LTERHub with a welcome message and a link to set their password and update their profile with additional information if desired, such as their ORCID, institutional affiliations, a biographical statement, social media information, a photograph or avatar -- and demographic information. 
+At the time they are added, each new participants will receive an automatic email from LTERHub with a welcome message and a link to set their password and update their profile with additional information such as their ORCID, institutional affiliations, a biographical statement, social media information, a photograph or avatar -- and demographic information. 
 
 \* "Status" has 2 options: "Current" or "Former". This reflects an individuals affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active".
 
