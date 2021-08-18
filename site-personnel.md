@@ -6,14 +6,14 @@ The LTERHub has two parts
 
 ## Individual updates
 
-To add key personnel to your site between major updates, create a ticket with their name, role, email address. The LNO will create a user for them and trigger a message to login and fill in other key information.
+To add key personnel to your site between major updates, [create a ticket in LTERHub](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, email address. The LNO will create a user for them and trigger a message to login and fill in other key information.
 
 Once a user is created and they have logged in, they are able to update their own information (including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests.
 
 ## Making bulk updates
 
 Create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER:
-|Site|First Name|Last Name|Middle Name|email address|Status\*|Site_Role_1\**|Role_1_end|Site_Role_2|Role_2_start|
+|Site|First Name|Last Name|Middle Name|email address|Status\* |Site_Role_1\*\* |Role_1_end|Site_Role_2|Role_2_start|
 |---|---|---|---|---|---|---|---|---|---|
 |ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|n/a|n/a|n/a|
 |DEF|Joe|F|Biogeochemist|jbiogeochemist@institution.edu|Current|Information Manager|n/a|Investigator|2021|
