@@ -2,14 +2,15 @@
 
 ## Overview
 It's helpful to have an overview of how the community platform works before detailing the process of adding new people. There are two major components to the SalesForce installation behind the community platform:
-* The Client (or Customer or Constituent) Relationship Management System (CRM) is basically just a relational database that is structured to hold the kind of data that organizations usually need about the people who make them up. New participants have to be added to the CRM before anything else can happen and licenses to the CRM are expensive. 
-* The community platform houses the interactions between people ("users") and groups within the Network. Customer User licenses allow individuals to easily update their own information, join and leave groups, post updates, and ask questions.  The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (created by the Network Office when a person is added and updated by the individual).
+* The Client (or Customer or Constituent) Relationship Management System (CRM) is basically just a relational database that is structured to hold the kind of data that organizations usually need about the people who participate in them. New participants have to be added to the CRM before anything else can happen and licenses to the CRM are expensive (therefore limited to the LNO). 
+* The community platform houses the interactions between people ("users") and groups within the Network. Customer User licenses allow individuals to login, easily update their own information, join and leave groups, post updates, and ask questions.  The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (created by the Network Office when a person is added and updated by the individual).
 
 ![](images/community-platform-overview.png)
 
-Rather having an individual simply associated with a site or not, the new system maintains a record of prior associations and allows multiple simultaneous associations (with different sites, in different roles, and with different institutions). This is valuable for understanding how individuals interact with the network across their careers. To accomplish it, however, we need to update **affiliations**, rather than just sites.
 
-## Individual updates
+Rather than having an individual simply associated with a site or not, the new system maintains a record of prior associations and allows multiple simultaneous associations (with different sites, in different roles, and with different institutions). This is valuable for understanding how individuals interact with the Network across their careers. To accomplish it, however, we need to update **affiliations**, rather than just sites.
+
+## Making individual updates
 
 Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [create a ticket in LTERHub](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, email address. The LNO will create a contact and a user for them and trigger a message to login and fill in other key information.
 
@@ -17,9 +18,9 @@ Once a user is created and they have logged in, they are able to update their ow
 
 ## Making bulk updates
 
-Usually, there are a few times a year when many people need to be added at once. In those situations, create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventuallly find and resolve them -- but it takes some extra work.
+Usually, there are a few times a year when many people need to be added at once. In those situations, create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them -- but it takes some extra work.
 
-Upload the file as an attachment to a case in the LTERhub using the case reason "new participant."
+Upload the file as an attachment to [a case in the LTERhub](https://lternetwork.force.com/lterhub/s/contactsupport)) using the case reason "new participant."
 
 |Site|First Name|Last Name|Middle Name|email address|Status\* |Site_Role_1\*\* |Role_1_end|Site_Role_2|Role_2_start|
 |---|---|---|---|---|---|---|---|---|---|
@@ -30,7 +31,7 @@ Upload the file as an attachment to a case in the LTERhub using the case reason 
 
 At the time they are added, each new participant will receive an automatic email from LTERHub with a welcome message and a link to set their password and update their profile with additional information such as their ORCID, institutional affiliations, a biographical statement, social media information, a photograph or avatar -- and demographic information. 
 
-\* *"Status" has 2 options: "Current" or "Former". This reflects an individuals affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active".*
+\* *"Status" has 2 options: "Current" or "Former." This reflects an individual's affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active."*
 
 \** *Options for "Role" are detailed below.*
 
@@ -42,7 +43,7 @@ At the time they are added, each new participant will receive an automatic email
 
 * **Changing or ending roles:** If someone's role has changed (e.g. a graduate student becomes a postdoc), add the postdoc role and the year it started in <Role_2> and <Role_2_start> respectively. Add the graduate student end year in the <Role_1_end> column. Enter n/a in the <Role_2_end> column to indicate that the role is ongoing.
 
-* **Former participants:** Only current participants should be displaying in the directory. If individuals are showing up that are no longer affiliated with your site, it's because the LNO has no information to indicate that they are no longer actively associated with your site. In these cases, include them in your table with "Former" in the <Status> column. If you know what role they held, please include it. If you have made a reasonable attempt to find out, but cannot, use "Unknown" in the <Site_Role_1> column to indicate that the information is not available.
+* **Former participants:** Only current participants should be displaying in the directory. If individuals are showing up that are no longer affiliated with your site, it's because the LNO has no information to indicate that they are no longer actively associated with your site. In these cases, include them in your table with "Former" in the <Status> column. If you know what role they held, please include it. If you have made a reasonable attempt to find out what role they held, but cannot, use "Unknown" in the <Site_Role_1> column to indicate that the information is not available.
 
 ## Detailed Field descriptions and options 
 
