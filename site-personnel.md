@@ -22,11 +22,11 @@ Usually, there are a few times a year when many people need to be added at once.
 
 Upload the file as an attachment to [a case in the LTERhub](https://lternetwork.force.com/lterhub/s/contactsupport)) using the case reason "new participant."
 
-|Site|First Name|Last Name|Middle Name|email address|Status\* |Site_Role_1\*\* |Role_1_end|Site_Role_2|Role_2_start|
-|---|---|---|---|---|---|---|---|---|---|
-|ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|n/a|n/a|n/a|
-|DEF|Joe|F|Biogeochemist|jbiogeochemist@institution.edu|Current|Information Manager|n/a|Investigator|2021|
-|XYZ|James|T|Callahan|callahan@nsf.gov|Former|Investigator|1999|Retired|1999|
+|Site|First Name|Middle Name|Last Name|email address|Status\* |Site_Role_1\*\* |Role_1_end|Site_Role_2|Role_2_start|Role_2_end|
+|---|---|---|---|---|---|---|---|---|---|---|
+|ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|n/a||||
+|DEF|Joe|F|Biogeochemist|jbiogeochemist@institution.edu|Current|Information Manager|n/a|Investigator|2021|n/a|
+|XYZ|James|J|Silverback|jjsilverback@agency.gov|Former|Investigator|1990|Retired|1990|1999|
 |JKL|Mary|Q|Whosits|mqwhosits@institution.edu|Former|Unknown||||
 
 At the time they are added, each new participant will receive an automatic email from LTERHub with a welcome message and a link to set their password and update their profile with additional information such as their ORCID, institutional affiliations, a biographical statement, social media information, a photograph or avatar -- and demographic information. 
