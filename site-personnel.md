@@ -12,13 +12,13 @@ Rather than having an individual simply associated with a site or not, the new s
 
 ## Making individual updates
 
-Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [create a ticket in LTERHub](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, email address. The LNO will create a contact and a user for them and trigger a message to login and fill in other key information.
+Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [create a ticket in LTERHub](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, and email address. The LNO will create a contact and a user for them and trigger a message to login and fill in other key information.
 
-Once a user is created and they have logged in, they are able to update their own information including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests.
+Once a user is created and they have logged in, they are able to update their own information including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests. They can also join discussion groups and update committee memberships.
 
 ## Making bulk updates
 
-Usually, there are a few times a year when many people need to be added at once. In those situations, create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them -- but it takes some extra work.
+Usually, there are a few times a year when many people need to be added at once. In those situations, create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER or that need to be updated. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them -- but it takes some extra work.
 
 Upload the file as an attachment to [a case in the LTERhub](https://lternetwork.force.com/lterhub/s/contactsupport)) using the case reason "new participant."
 
