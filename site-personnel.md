@@ -43,7 +43,7 @@ At the time they are added, each new participant will receive an automatic email
 
 * **Changing or ending roles:** If someone's role has changed (e.g. a graduate student becomes a postdoc), add the postdoc role and the year it started in <Role_2> and <Role_2_start> respectively. Add the graduate student end year in the <Role_1_end> column. Enter n/a in the <Role_2_end> column to indicate that the role is ongoing.
 
-* **Former participants:** Only current participants should be displaying in the directory. If individuals are showing up that are no longer affiliated with your site, it's because the LNO has no information to indicate that they are no longer actively associated with your site. In these cases, include them in your table with "Former" in the <Status> column. If you know what role they held, please include it. If you have made a reasonable attempt to find out what role they held, but cannot, use "Unknown" in the <Site_Role_1> column to indicate that the information is not available.
+* **Former participants:** Only current participants should be displaying in the [LTER directory](https://lternetwork.force.com/lterhub/s/directory). If individuals are showing up that are no longer affiliated with your site, it's because the LNO has no information to indicate that they are no longer actively associated with your site. In these cases, include them in your table with "Former" in the <Status> column. If you know what role they held, please include it. If you have made a reasonable attempt to find out what role they held, but cannot, use "Unknown" in the <Site_Role_1> column to indicate that the information is not available.
 
 ## Detailed Field descriptions and options 
 
