@@ -1,7 +1,9 @@
 # Site Personnel Lists 
 
 ## Overview
-It's helpful to have an overview of how the community platform works before detailing the process of adding new people. There are two major components to the SalesForce installation behind the community platform. One is a CRM (Client (or Customer or Constituent) Relationship Management System -- basically just a relational database that is structured to hold the kind of data that organizations usually need about the people who make them up. The other is the community platform itself, which houses the interaction between people and groups within the Network. The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (activated and updated by the individual).
+It's helpful to have an overview of how the community platform works before detailing the process of adding new people. There are two major components to the SalesForce installation behind the community platform:
+* The Client (or Customer or Constituent) Relationship Management System (CRM) is basically just a relational database that is structured to hold the kind of data that organizations usually need about the people who make them up. New participants have to be added to the CRM before anything else can happen and licenses to the CRM are expensive. 
+* The community platform houses the interactions between people ("users") and groups within the Network. Customer User licenses allow individuals to easily update their own information, join and leave groups, post updates, and ask questions.  The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (created by the Network Office when a person is added and updated by the individual).
 
 ![](images/community-platform-overview.png)
 
