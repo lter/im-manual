@@ -7,27 +7,31 @@ It's helpful to have an overview of how the community platform works before deta
 
 ![](images/community-platform-overview.png)
 
+Rather having an individual simply associated with a site or not, the new system maintains a record of prior associations and allows multiple simultaneous associations (with different sites, in different roles, and with different institutions). This is valuable for understanding how individuals interact with the network across their careers. To accomplish it, however, we need to update **affiliations**, rather than just sites.
+
 ## Individual updates
 
-To add key personnel to your site between major updates, [create a ticket in LTERHub](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, email address. The LNO will create a user for them and trigger a message to login and fill in other key information.
+Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [create a ticket in LTERHub](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, email address. The LNO will create a contact and a user for them and trigger a message to login and fill in other key information.
 
 Once a user is created and they have logged in, they are able to update their own information including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests.
 
 ## Making bulk updates
 
-Create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER. Upload the file as an attachment to a case in the LTERhub using the case reason "new participant."
+Usually, there are a few times a year when many people need to be added at once. In those situations, create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventuallly find and resolve them -- but it takes some extra work.
 
+Upload the file as an attachment to a case in the LTERhub using the case reason "new participant."
+<font size="-1">
 |Site|First Name|Last Name|Middle Name|email address|Status\* |Site_Role_1\*\* |Role_1_end|Site_Role_2|Role_2_start|
 |---|---|---|---|---|---|---|---|---|---|
 |ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|n/a|n/a|n/a|
 |DEF|Joe|F|Biogeochemist|jbiogeochemist@institution.edu|Current|Information Manager|n/a|Investigator|2021|
-|XYZ|James|T|Callahan|callahan@nsf.gov|Former|Investigator|1999|Retired|1999|
+|XYZ|James|T|Callahan|callahan@nsf.gov|Former|Investigator|1999|Retired|1999|</font>
 
 At the time they are added, each new participant will receive an automatic email from LTERHub with a welcome message and a link to set their password and update their profile with additional information such as their ORCID, institutional affiliations, a biographical statement, social media information, a photograph or avatar -- and demographic information. 
 
-\* "Status" has 2 options: "Current" or "Former". This reflects an individuals affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active".
+*\* "Status" has 2 options: "Current" or "Former". This reflects an individuals affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active".*
 
-\** Options for "Role" are detailed below.
+*\** Options for "Role" are detailed below.*
 
 **The table above illustrates three common cases:**
 
