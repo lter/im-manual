@@ -20,7 +20,7 @@ Once a user is created and they have logged in, they are able to update their ow
 Usually, there are a few times a year when many people need to be added at once. In those situations, create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventuallly find and resolve them -- but it takes some extra work.
 
 Upload the file as an attachment to a case in the LTERhub using the case reason "new participant."
-<font size="-1">
+<font-size="-1">
 |Site|First Name|Last Name|Middle Name|email address|Status\* |Site_Role_1\*\* |Role_1_end|Site_Role_2|Role_2_start|
 |---|---|---|---|---|---|---|---|---|---|
 |ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|n/a|n/a|n/a|
@@ -29,17 +29,17 @@ Upload the file as an attachment to a case in the LTERhub using the case reason 
 
 At the time they are added, each new participant will receive an automatic email from LTERHub with a welcome message and a link to set their password and update their profile with additional information such as their ORCID, institutional affiliations, a biographical statement, social media information, a photograph or avatar -- and demographic information. 
 
-*\* "Status" has 2 options: "Current" or "Former". This reflects an individuals affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active".*
+* \* "Status" has 2 options: "Current" or "Former". This reflects an individuals affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active". *
 
-*\** Options for "Role" are detailed below.*
+* \** Options for "Role" are detailed below. *
 
 **The table above illustrates three common cases:**
 
 * **New participants:** The only information required is Site, First Name, Middle Name, Last Name, Email address, Status, and Role. The remaining columns should have n/a's.  
 
-* **Adding roles:** LTERHub is designed to accommodate multiple simultaneous role and site affiliations. When an individual adds a new role at your site and keeps the old role (as in an Information Manager became a co-PI), enter n/a in the <Role_1_end> column, add the new role in the <Role_2> column, and add the year the new role started in <Role_2_start> column.
+* **Adding roles:** LTERHub is designed to accommodate multiple simultaneous role and site affiliations. When an individual adds a new role at your site and keeps the old role (e.g. an Information Manager becomes a co-PI and retains the Information Manager role) add the new role in the <Role_2> column, add the year the new role started in <Role_2_start> column, and enter n/a in the <Role_1_end> and <Role_2_end> columns.
 
-* **Changing or ending roles:** If someone's role has changed (i.e. the previous role ended when the new role began, as in a graduate student became a postdoc), add the end date in the <Role_1_end> column. Add the new role and the year it started in <Role_2> and <Role_2_start> respectively.
+* **Changing or ending roles:** If someone's role has changed (e.g. a graduate student becomes a postdoc), add the postdoc role and the year it started in <Role_2> and <Role_2_start> respectively and add the graduate student end date in the <Role_1_end> column. Enter n/a in the <Role_2_end> column to indicate that the role is ongoing.
 
 ## Detailed Field descriptions and options 
 
@@ -61,7 +61,7 @@ A few fields use limited options and will not accept any text other than the bel
     * **Information Manager:** A person at an LTER site that spends some or all of their time in the process of data management. This person may or may not be the site representative to the data management committee.
     * **Education Manager:** A person at an LTER site that spends some or all of their time in the process of education/outreach. This person may or may not be the site representative to the education/outreach committee.  
     * **Other Professional:** A person who may or may not hold a doctoral degree or its equivalent, who is considered a professional and is not reported as a Principal Investigator, faculty associate, postdoctoral associate or student. Examples include research associates, physicians, veterinarians, system experts, computer programmers and design engineers.
-     * **Technical/Research Staff:** Technicians and field research personnel. 
+    * **Technical/Research Staff:** Technicians and field research personnel. 
     * **Administrative Staff:** Persons working on the project in a non-research capacity. 
     * **Other Staff:** Persons working on the project in a non-research capacity, such as draftsmen, animal caretakers, electricians and custodial personnel. 
     * **Interested Party:** A person who is associated with an LTER site or the Network through interest, educational programs, public outreach etc. 
