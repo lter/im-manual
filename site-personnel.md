@@ -1,8 +1,9 @@
 # Site Personnel Lists 
 
 ## Overview
-Marty is working on an overview diagram to go here that explains what kind of information is stored how in LTERHub. The biggest difference from past practice is that affiliations with sites or institutions are stored separately from the individual. 
+It's haelpful to have an overview of how the community platform works before detailing the process of adding new people. There are two major components to the SalesForce installation behind the community platform. One is a CRM (Client (or Customer or Constituent) Relationship Management System -- basically just a relational database that is structured to hold the kind of data that organizations usually need about the people who make them up. The other is the community platform itself, which houses the interaction between people and groups within the Network. The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (activated and updated by the individual).
 
+![](images/community-latform-overview.png)
 
 ## Individual updates
 
