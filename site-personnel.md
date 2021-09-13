@@ -12,9 +12,9 @@ Rather than having an individual simply associated with a site or not, the new s
 
 ## Making individual updates
 
-Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [create a ticket in LTERHub](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, and email address. The LNO will create a contact and a user for them and trigger a message to login and fill in other key information.
+Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, login to LTERHub and [create a case](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, and email address. The LNO will create a contact and a user for them and trigger a message to login and fill in other key information.
 
-Once a user is created and they have logged in, they are able to update their own information including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests. They can also join discussion groups and update committee memberships.
+Once a user is created and they have logged in, they are able to update their own information, including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests. They can also join discussion groups and update committee memberships.
 
 ## Making bulk updates
 
@@ -56,20 +56,20 @@ A few fields use limited options and will not accept any text other than the bel
     * Special Options: EDI, LNO, INT, NWK are for personnel associated with the Environmental Data Initiative (EDI), Network Office (LNO), International LTER (INT), LTER Network Office (LNO), and the Network as a whole (NWK)--for example, staff of related organizations and networks. 
 
 * Site Role:
-    * **Lead Principal Investigator:** The primary individual designated by the grantee and approved by NSF who will be responsible for the scientific or technical direction of the project.
-    * **Co-Principal Investigator:** The individuals designated by the grantee and approved by NSF who will be responsible for the scientific or technical direction of the project. (Cover page investigators.) 
-    * **Investigator:** An individual other than the Co-Principal Investigator(s) considered by the performing institution to be a member of its faculty or who holds an appointment as a faculty member or equivalent at another institution or organization, and who will participate in the project being supported (i.e., someone with substantial involvement in the LTER project -- whther or not they are funded by the LTER).
+    * **Lead Principal Investigator:** The primary individual who is responsible for the scientific or technical direction of the project.
+    * **Co-Principal Investigator:** The individuals who are formally responsible for the scientific or technical direction of the project. (Cover page investigators.) 
+    * **Investigator:** An individual with substantial scientific involvement in the LTER, but who is not a Co-Principal Investigator(s). LTER Investigators need not funded by the project.
     * **Postdoctoral Associate:** An individual with a doctoral-level degree who does research at the site, but does not hold a permanent position. Generally Postdocs are less than 5 years post-degree.
     * **Graduate Student:** A part-time or full-time student working on the project in a research capacity who holds at least a bachelor's degree and is enrolled in a degree program leading to an advanced degree.  
     * **Undergraduate Student:** A student working on the project in a research capacity who is enrolled in a degree program (part-time or full-time) leading to a bachelor's or associate's degree. 
-    * **Information Manager:** A person at an LTER site that spends some or all of their time in the process of data management. This person may or may not be the site representative to the data management committee.
+    * **Information Manager:** A person at an LTER site that spends some or all of their time in the process of data and information management. This person may or may not be the site representative to the data management committee.
     * **Education Manager:** A person at an LTER site that spends some or all of their time in the process of education/outreach. This person may or may not be the site representative to the education/outreach committee.  
     * **Other Professional:** A person who may or may not hold a doctoral degree or its equivalent, who is considered a professional and is not reported as a Principal Investigator, Co-principal Investigator, Investigator, Postdoctoral Associate or Student. Examples include research associates, physicians, veterinarians, system experts, computer programmers and design engineers.
     * **Technical/Research Staff:** Technicians and field research personnel. 
     * **Administrative Staff:** Persons working on the project in a non-research capacity. 
     * **Other Staff:** Persons working on the project in a non-research capacity, such as draftsmen, animal caretakers, electricians and custodial personnel. 
-    * **Interested Party:** A person who is associated with an LTER site or the Network through interest, educational programs, public outreach etc. 
-    * **Retired:** Investigators who maintain an active interest in the site and the Network. Not the same as past network members (who are designated as "Former"). 
+    * **Interested Party:** A person who is associated with an LTER site or the Network through interest, educational programs, public outreach etc., may include educational or community partners, neighbors, board members, etc. 
+    * **Retired:** _Emeritus_ Investigators who maintain an active interest in the site and the Network. Not the same as past network members (who are designated as "Former"). 
 
 * Less-frequently used options, for individuals that you want to associate with your site:
     * K-12 Teacher
