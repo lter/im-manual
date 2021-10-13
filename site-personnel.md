@@ -20,14 +20,14 @@ Once a user is created and they have logged in, they are able to update their ow
 
 Usually, there are a few times a year when many people need to be added at once. In those situations, create an excel or csv file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER or that need to be updated. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them -- but it takes some extra work.
 
-Upload the file as an attachment to [a case in the LTERhub](https://lternetwork.force.com/lterhub/s/contactsupport)) using the case reason "new participant."
+Upload the file as an attachment to [a case in the LTERhub](https://lternetwork.force.com/lterhub/s/contactsupport) using the case reason "new participant."
 
-|Site|First Name|Middle Name|Last Name|email address|Status\* |Site_Role_1\*\* |Role_1_end|Site_Role_2|Role_2_start|Role_2_end|
+|Site|First Name|Middle Name|Last Name|email address|Status\* |Site_Role_1\*\* |Role_1-Start(if known)|Role_1_end|Site_Role_2|Role_2_start|Role_2_end|
 |---|---|---|---|---|---|---|---|---|---|---|
-|ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|n/a||||
-|DEF|Joe|F|Biogeochemist|jbiogeochemist@institution.edu|Current|Information Manager|n/a|Investigator|2021|n/a|
-|XYZ|James|J|Silverback|jjsilverback@agency.gov|Former|Investigator|1990|Retired|1990|1999|
-|JKL|Mary|Q|Whosits|mqwhosits@institution.edu|Former|Unknown||||
+|ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|2021|n/a||||
+|DEF|Joe|F|Biogeochemist|jbiogeochemist@institution.edu|Current|Information Manager|2010|n/a|Investigator|2021|n/a|
+|XYZ|James|J|Silverback|jjsilverback@agency.gov|Former|Investigator|1980|1990|Retired|1990|1999|
+|JKL|Mary|Q|Whosits|mqwhosits@institution.edu|Former|Unknown|||||
 
 At the time they are added, each new participant will receive an automatic email from LTERHub with a welcome message and a link to set their password and update their profile with additional information such as their ORCID, institutional affiliations, a biographical statement, social media information, a photograph or avatar -- and demographic information. 
 
@@ -37,11 +37,11 @@ At the time they are added, each new participant will receive an automatic email
 
 **The table above illustrates four common cases:**
 
-* **New participants:** The only information required is Site, First Name, Middle Name, Last Name, Email address, Status, and Role. The remaining columns should have n/a's.  
+* **New participants:** The only information required is Site, First Name, Middle Name, Last Name, Email address, Status, Role. For additional clarity, include the start date (especially if different from the crrent year). The remaining columns should have n/a's.  
 
-* **Adding roles:** LTERHub is designed to accommodate multiple simultaneous roles and site affiliations. When an individual adds a new role at your site and keeps the old role (e.g. an Information Manager becomes a co-PI and retains the Information Manager role) add the new role in the <Role_2> column; add the year the new role started in <Role_2_start> column; and enter n/a in the \<Role_1_end\> and \<Role_2_end\> columns.
+* **Adding roles:** LTERHub is designed to accommodate multiple simultaneous roles and site affiliations. When an individual adds a new role at your site and keeps the old role (e.g. an Information Manager becomes a co-PI and retains the Information Manager role) add the new role in the <Role_2> column; add the year the new role started in <Role_2_start> column; and enter n/a in the \<Role_1_end\> and \<Role_2_end\> columns. If you know what year the person started role 1, add it. But incorrect information is worse than no information. Ideally, the individual will update this information themselves.
 
-* **Changing or ending roles:** If someone's role has changed (e.g. a graduate student becomes a postdoc), add the postdoc role and the year it started in \<Role_2\> and \<Role_2_start\> respectively. Add the graduate student end year in the \<Role_1_end\> column. Enter n/a in the <Role_2_end> column to indicate that the role is ongoing.
+* **Changing or ending roles:** If someone's role has changed (e.g. a graduate student becomes a postdoc), add the postdoc role and the year it started in \<Role_2\> and \<Role_2_start\> respectively. Add the graduate student start- and end-years in the \<Role_1_start\> and \<Role_1_end\> column. Enter n/a in the <Role_2_end> column to indicate that the role is ongoing.
 
 * **Former participants:** Only current participants should be displaying in the [LTER directory](https://lternetwork.force.com/lterhub/s/directory). If individuals are showing up that are no longer affiliated with your site, it's because the LNO has no information to indicate that they are no longer actively associated with your site. In these cases, include them in your table with "Former" in the \<Status\> column. If you know what role they held, please include it. If you have made a reasonable attempt to find out what role they held, but cannot, use "Unknown" in the \<Site_Role_1\> column to indicate that the information is not available.
 
