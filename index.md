@@ -8,7 +8,7 @@ What do you need to do?
 * Ask for help with something
 * Share an event
 * [Update my site's personnel](http://lter.github.io/im-manual/site-personnel)
-* Update my site's publications
+* [Update my site's publications] (https://github.io/im-manual/site-publications)
 * Suggest edits to the IM Manual
 * Create (or edit) a site website
 * Write Ecological Markup Language (EML)
