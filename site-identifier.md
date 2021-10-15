@@ -99,5 +99,5 @@ Crossref funder ID for the organization (if available)|n/a unless your site fund
 |City|city (or location) of the **site**, rather than the home institution|ROR uses GeoNames for this field, so what you want is the name of the location in GeoNames database that best represents the location of your site.|
 |Country|The country (or continent) associated with the location of the research site||
 
-## What happens when we need to update the information?##
+## What happens when we need to update the information? ##
 When a site moves institutions or needs to update partners, simply request a change to ROR metdata through the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). The sites identifier will remain the same, but parent institution or other metadata will be updated.
