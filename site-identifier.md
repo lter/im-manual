@@ -19,32 +19,33 @@ The ROR structure allows three types of organizational relationships, with multi
 - Child: Sub- or spinoff organizations.
 
 When an ROR is created, sites can use that identifier in EML metadata to identify data associated with a site, for example:
-
->    <contact>
->      <organizationName>NTL LTER</organizationName>
->      <address>
->        <deliveryPoint>680 North Park Street</deliveryPoint>
->        <city>Madison</city>
->        <administrativeArea>WI</administrativeArea>
->        <postalCode>53706</postalCode>
->        <country>United States</country>
->      </address>
->      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
->      <userId directory=" https://ror.org">23435@#$%#@</userId>
->    </contact>
+'''
+    <contact>
+      <organizationName>NTL LTER</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+      <userId directory=" https://ror.org">23435@#$%#@</userId>
+    </contact>
+'''
     
 If you want to simultaneously recognize your connection with a university or field station, consider including their identifier in the associatedParty element with appropriate role descriptions.
 
 They can also use ROR's (and uther identifier systems) to decribe the publisher:
-
->  <publisher>
->    <organizationName>Environmental Data Initiative</organizationName>
->    <electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress>
->    <onlineUrl>https://environmentaldatainitiative.org</onlineUrl>
->    <userId directory="https://ror.org/">0330j0z60</userId>
->    <userId directory="https://grid.ac/institutes/">grid.511300.6</userId>
->    <userId directory="https://isni.oclc.org/isni/">0000000495505609</userId>
->  </publisher>
+'''
+  <publisher>
+    <organizationName>Environmental Data Initiative</organizationName>
+    <electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress>
+    <onlineUrl>https://environmentaldatainitiative.org</onlineUrl>
+    <userId directory="https://ror.org/">0330j0z60</userId>
+    <userId directory="https://grid.ac/institutes/">grid.511300.6</userId>
+    <userId directory="https://isni.oclc.org/isni/">0000000495505609</userId>>  </publisher>
+'''
 
 **Action requested:**
 Each site Information Manager should enter information relevant to their ROR identifier in the shared spreadsheet as described below. 
@@ -62,6 +63,7 @@ Each site Information Manager should enter information relevant to their ROR ide
 ### Instructions for completing ROR spreadsheet ###
 
 |Question|Response|Questions/Notes|
+|---|---|---|
 |Email|Your email address|In theory, this is for correspondence about assigning the ROR, but it is probably wise to use an IM institutional address if you have one.|
 |Agree to be contacted|Yes||
 |Your name|Your name|The name of the individual completing the information|
@@ -96,8 +98,8 @@ Crossref funder ID for the organization (if available)|n/a unless your site fund
   -  University to which the LTER grant is awarded
 
 **Related Institutions:**
-    - Environmental Data Initiative
-    - Related field stations
-    - Co-PI institutions
-    - Outreach partners
+  -  Environmental Data Initiative
+  -  Related field stations
+  -  Co-PI institutions
+  -  Outreach partners
 
