@@ -45,9 +45,20 @@ When an ROR is created, sites can use that identifier in EML metadata to identif
     </contact>
 ```
     
-If you want to simultaneously recognize your connection with a university or field station, consider including their identifier in the `<associatedParty>` element with appropriate role descriptions.
+In addition to identifying associations directly within the ROR record (LTER network, home institution, EDI, etc.) they can also be specified in the EML  `<associatedParty>` element with appropriate role descriptions. It would make sense to use this option for data set specific affiliations.
 
-They can also use ROR's (and other identifier systems) to decribe the publisher:
+```
+    <associatedParty>
+      <organizationName>United States Geological Survey</organizationName>
+      <onlineUrl>http://www.usgs.gov/</onlineUrl>
+      <userId directory="https://ror.org/">035a68863</userId>
+      <role>instrumetation provider</role>
+    </associatedParty>
+
+```
+
+The `<publisher>` element will be used by EDI and will be automatically inserted (replaced) upon data submission:
+
 ```
   <publisher>
     <organizationName>Environmental Data Initiative</organizationName>
@@ -58,6 +69,10 @@ They can also use ROR's (and other identifier systems) to decribe the publisher:
     <userId directory="https://isni.oclc.org/isni/">0000000495505609</userId>>  
   </publisher>
 ```
+#### Best Practice Consideration ####
+
+EML does not allow to distinguish between a user id and an organization id within one party element. Hence, the recommendation is to use one party element only for an organization with its ROR id and not try to overload the `<userID>` element by entering both, the ORCID for a person and the ROR for the person's organization within one party element. 
+
 
 ## Action requested: ##
 Each site Information Manager should enter information relevant to their ROR identifier in the shared spreadsheet as described below. 
