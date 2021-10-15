@@ -26,7 +26,7 @@ The ROR structure allows three types of organizational relationships, with multi
     -  Environmental Data Initiative
     -  Related field stations
     -  Co-PI institutions
-    -  Outreach partners 
+    -  Outreach partners https://portal.edirepository.org/nis/auditReport.jsp
 -  **Child:** Sub- or spinoff organizations.
 
 When an ROR is created, sites can use that identifier in EML metadata to identify data associated with a site, for example:
@@ -47,7 +47,7 @@ When an ROR is created, sites can use that identifier in EML metadata to identif
     
 If you want to simultaneously recognize your connection with a university or field station, consider including their identifier in the `<associatedParty>` element with appropriate role descriptions.
 
-They can also use ROR's (and uther identifier systems) to decribe the publisher:
+They can also use ROR's (and other identifier systems) to decribe the publisher:
 ```
   <publisher>
     <organizationName>Environmental Data Initiative</organizationName>
@@ -84,7 +84,7 @@ Each site Information Manager should enter information relevant to their ROR ide
 |What are you registering?|“Add a new organization to ROR” (or, if the organization already exists, “Modify the information in an existing ROR record”)||
 |...please confirm that your organization is within this scope|Yes|We have already confirmed that LTERs are appropriate for ROR|
 |Have you checked that this organization already has an ROR...|Yes|If your site already has an ROR, you shouldn’t have gotten this far.|
-|Name of organization to be added|Name of your LTER, in the form: <full name> LTER (i.e “Beaufort Lagoon Ecosystems LTER”)||
+|Name of organization to be added|Name of your LTER, in the form: /<Your Site Name/> LTER (i.e “Beaufort Lagoon Ecosystems LTER”)||
 |Organization website|link to LTER site home page||
 |Provide a link to a webpage with research publications associated with this organization|link to your site bibliography page|This can be on your own website, your Zotero library, or on the Network website, for example: https://lternet.edu/bibliography/?lterSite=Beaufort+Lagoon+Ecosystem&searchButton=Search|
 |Type of organization|Other|The Allowed types are: Education, Healthcare, Company, Archive, Nonprofit, Government, Facility, Other. We discussed this with ROR and agreed that none of the other types work for LTERs. “Education” is strictly for schools and universities. “Facility” fits the related field stations, but not the LTERs.|  
