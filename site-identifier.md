@@ -1,6 +1,6 @@
 # LTER Site Identifiers #
 *Proposed plan - developed by Marty Downs (LNO), Tim Whiteaker (BLE), An Nguyen (BLE)
-Draft: 2021-06-16*
+Draft: 2021-10-15*
 
 **Goal:** Obtain unique identifiers for LTER sites analogous to ORCIDs for individuals that can be used to identify products and data associated with LTER programs. 
 
@@ -50,162 +50,54 @@ They can also use ROR's (and uther identifier systems) to decribe the publisher:
 Each site Information Manager should enter information relevant to their ROR identifier in the shared spreadsheet as described below. 
 
 
-How to request an ROR identifier
+## How to request an ROR identifier ##
 
-Visit the ROR Homepage to learn about ROR IDs.
-Check if your LTER Program has an ROR ID on the search page.
-If the program exists already, you’ll be requesting a change, so make a note of the existing ROR #. If not (most likely), you’ll be requesting a new entry. 
-Go to the LTER google sheet, and enter your information according to the instructions below. When we have received information from all sites (or as many as we can get) we will review for consistency and submit to ROR as a group.
-Because the ROR is curated, it may still take a few months for the request to be reviewed and the identifier assigned - but doing this as a group will definitely expedite the process. The LNO will alert sites when identifiers have been assigned.
+1. Visit the [ROR Homepage](https://ror.org/) to learn about ROR IDs.
+2. Check if your LTER Program has an ROR ID on the [search page](https://ror.org/search).
+    - Assuming that the program does not already exist, continue to item 3. 
+    - If the program does exist in the ROR directory, you will be requesting a change through a different process. Make a note of the existing ROR # and skip to **updating your ROR**, below.  
+3. Go to the [LTER google sheet](https://docs.google.com/spreadsheets/d/1qiUMJ1jm_EDa2uM_qQY-U6To7qleQJnntcl1a-VM3m8/edit#gid=0), and enter your information according to the instructions below. When we have received information from all sites (or as many as we can get) we will review for consistency and submit to ROR as a group.
+4. Because the ROR is curated, it may still take a few months for the request to be reviewed and the identifier assigned - but doing this as a group will definitely expedite the process. The LNO will alert sites when identifiers have been assigned.
 
+### Instructions for completing ROR spreadsheet ###
 
+|Question|Response|Questions/Notes|
+|Email|Your email address|In theory, this is for correspondence about assigning the ROR, but it is probably wise to use an IM institutional address if you have one.|
+|Agree to be contacted|Yes||
+|Your name|Your name|The name of the individual completing the information|
+|Your organizational affiliation|Your preferred affiliation|Used only to identify the contact. This can be university, agency, or site.|
+|Your role/title|Your role or title in relationship to the organizational affiliation above||
+|What are you registering?|“Add a new organization to ROR” (or, if the organization already exists, “Modify the information in an existing ROR record”)||
+|...please confirm that your organization is within this scope|Yes|We have already confirmed that LTERs are appropriate for ROR|
+|Have you checked that this organization already has an ROR...|Yes|If your site already has an ROR, you shouldn’t have gotten this far.|
+|Name of organization to be added|Name of your LTER, in the form:
+ <full name> LTER (i.e “Beaufort Lagoon Ecosystems LTER”)||
+|Organization website|link to LTER site home page||
+|Provide a link to a webpage with research publications associated with this organization|link to your site bibliography page|
+This can be on your own website, your Zotero library, or on the Network website, for example: 
+https://lternet.edu/bibliography/?lterSite=Beaufort+Lagoon+Ecosystem&searchButton=Search|
+|Type of organization|Other|The Allowed types are: Education, Healthcare, Company, Archive, Nonprofit, Government, Facility, Other. We discussed this with ROR and agreed that none of the other types work for LTERs. “Education” is strictly for schools and universities. “Facility” fits the related field stations, but not the LTERs.|  
+|Wikipedia page|Wikipedia page of the organization (if available): For example, for the LTER Network: https://en.wikipedia.org/wiki/Long_Term_Ecological_Research_Network|Search here: https://en.wikipedia.org/wiki/Main_Page. This should be the wikipedia page of the LTER site, if the LTER site has a wikipedia page. If the site does not have a wikipedia page, either create one or leave this cell empty. It may be tempting to use a related page, but the point is to disambiguate organizational references, so better to leave it blank if the reference is not to the same entity. Thisinformation is not essential if you don't already have one.| 
+|Wikidata ID for the organization (if available)|For example: https://www.wikidata.org/wiki/Q6673290 or n/a if not available.|Search at the top right, here: https://www.wikidata.org/wiki/Wikidata:Main_Page. Instructions for obtaining a wikidata ID are linked. (It can be really fast if you just want the ID.)| 
+|ISNI ID for the organization (if available)|For example: https://isni.org/isni/0000000088203822|Search ISNI here: https://isni.oclc.org/xslt/DB=1.2/SET=2/TTL=1/CMD?ACT=SRCH&IKT=8006&SRT=LST_nd&TRM=LTER|
+|GRID ID for the organization (if available)|n/a|Or search here, if you think your site might have one: https://www.grid.ac/institutes|
+Crossref funder ID for the organization (if available)|n/a unless your site funds other organizations and therefore has its own crossref funder ID||
+|Organization abbreviation|Three letter abbreviation of your site e.g., "BLE," “AND”, “LNO”, etc.|Can accept more than 1|
+|Other variations of the organization name|Include at least:
+- The name of the site completely spelled out, with both “...long-term…” and “...long term…”
+- The three-letter abbreviation, plus the LTER abbreviation (e.g. MCR LTER)
+- Any other variations of the name (e.g. Niwot or Niwot Ridge, Moorea or Mo’orea, etc.)|See MCM’s listing for an example.|
+|Related Organizations (Fill or create a new column for each related organization.)| The LTER Network will be a  parent to LTER sites and sites can also add other parent and related organizations. For example, they may want to include their institutions as a second “parent” organization or a field station, CZO, NEON site, outreach partner, etc. at the same location as a “related” organization.|Other LTER sites should be related automatically by virtue of having the same parent.| 
+|City|city (or location) of the **site**, rather than the home institution|ROR uses GeoNames for this field, so what you want is the name of the location in GeoNames database that best represents the location of your site.|
+|Country|The country (or continent) associated with the location of the research site||
 
-Instructions for completing ROR spreadsheet
+**Parent Institutions:**
+  -  Long Term Ecological Research Network
+  -  University to which the LTER grant is awarded
 
-Question
-Response
-Questions/Notes
-Email
-Your email address
-In theory, this is for correspondence about assigning the ROR, but it is probably wise to use an IM institutional address if you have one.
-Agree to be contacted
-Yes
+**Related Institutions:**
+    - Environmental Data Initiative
+    - Related field stations
+    - Co-PI institutions
+    - Outreach partners
 
-
-Your name
-Your name
-The name of the individual completing the information.
-Your organizational affiliation
-Your preferred affiliation. 
-Used only to identify the contact. This can be university, agency, or site.
-
-
-Your role/title
-Your role or title in relationship to the organizational affiliation above.
-
-
-What are you registering?
-“Add a new organization to ROR” (or, if the organization already exists, “Modify the information in an existing ROR record”)
-
-
-...please confirm that your organization is within this scope
-Yes,
-We have already confirmed that LTERs are appropriate for ROR
-
-
-Have you checked that this organization already has an ROR...
-Yes
-If your site already has an ROR, you shouldn’t have gotten this far.
-Name of organization to be added
-Name of your LTER, in the form:
- <full name> LTER (i.e “Beaufort Lagoon Ecosystems LTER”)
-
-
-Organization website
-link to LTER site home page
-
-
-Provide a link to a webpage with research publications associated with this organization: 
-link to your site bibliography page
-ThIs can be on your own website, your Zotero library, or on the Network website, for example: 
-
-https://lternet.edu/bibliography/?lterSite=Beaufort+Lagoon+Ecosystem&searchButton=Search
-Type of organization
-Other
-The Allowed types are: Education, Healthcare, Company, Archive, Nonprofit, Government, Facility, Other. We discussed this with ROR and agreed that none of the other types work for LTERs. “Education” is strictly for schools and universities. “Facility” fits the related field stations, but not the LTERs.  
-Wikipedia page
-Wikipedia page of the organization (if available): For example, for the LTER Network: https://en.wikipedia.org/wiki/Long_Term_Ecological_Research_Network
-Search here: https://en.wikipedia.org/wiki/Main_Page
-
-This should be the wikipedia page of the LTER site, if the LTER site has a wikipedia page. If the site does not have a wikipedia page, either create one or leave this cell empty. It may be tempting to use a related page, but the point is to disambiguate organizational references, so better to leave it blank if the reference is not to the same entity.
-Wikidata ID for the organization (if available)
-For example: https://www.wikidata.org/wiki/Q6673290 or n/a if not available.
-Search at the top right, here: https://www.wikidata.org/wiki/Wikidata:Main_Page. 
-
-Instruction for obtaining a wikidata ID are below the ROR instructions. (It can be really fast if you just want the ID) 
-
-
-ISNI ID for the organization (if available)
-For example: https://isni.org/isni/0000000088203822
-
-
-Search ISNI here: https://isni.oclc.org/xslt/DB=1.2/SET=2/TTL=1/CMD?ACT=SRCH&IKT=8006&SRT=LST_nd&TRM=LTER
-
-
-GRID ID for the organization (if available)
-n/a
-Or search here, if you think your site might have one: https://www.grid.ac/institutes
-
-
-Crossref funder ID for the organization (if available)
-n/a unless your site funds other organizations and therefore has its own crossref funder ID.
-
-
-
-
-Organization abbreviation
-Three letter abbreviation of your site e.g., "BLE," “AND”, “LNO”, etc.
-Can accept more than 1
-Other variations of the organization name
-Include at least:
-The name of the site completely spelled out, with both “...long-term…” and “...long term…”
-The three-letter abbreviation, plus the LTER abbreviation (e.g. MCR LTER)
-Any other variations of the name (e.g. Niwot or Niwot Ridge, Moorea or Mo’orea, etc.) 
-See MCM’s listing for an example.
-
-
-
-Related Organizations
-
-
-The LTER Network will be a  parent to LTER sites and sites can also add other parent and related organizations. For example, they may want to include their institutions as a second “parent” organization or a field station, CZO, or NEON site, outreach partner, etc. at the same location as a “related” organization.
-Other LTER sites should be related automatically by virtue of having the same parent. 
-City
-city (or location) of the site, rather than the home institution
-ROR uses GeoNames for this field, so what you want is the name of the location in GeoNames database that best represents the location of your site.
-Country
-The country (or continent) associated with the location of the research site
-
-
-
-
-
-Parent Institutions:
-Long Term Ecological Research Network
-
-Related Institutions:
-Environmental Data Initiative (EDI)
-Andrews Forest LTER (AND)
-Arctic LTER (ARC)
-Baltimore Ecosystem Study  LTER (BES)
-Beaufort Lagoon Ecosystem LTER (BLE)
-Bonanza Creek LTER (BNZ)
-Central Arizona-Phoenix LTER (CAP)
-Central Plains Experimental Range LTER 
-California Current Ecosystem LTER (CCE)
-Cedar Creek LTER (CDR)
-Coweeta LTER (CWT)
-Florida Coastal Everglades  LTER (FCE)
-Georgia Coastal Ecosystems  LTER (GCE)
-Harvard Forest  LTER (HFR)
-Hubbard Brook Experimental Forest LTER (HBR)
-Illinois River LTER
-Jornada Basin LTER (JRN)
-Kellogg Biological Station  LTER (KBS)
-Konza Prairie  LTER (KNZ)
-Luquillo LTER  (LUQ)
-McMurdo Dry Valleys  LTER (MCM)
-Minneapolis St. Paul LTER (MSP)
-Moorea Coral Reef LTER (MCR)
-Niwot Ridge LTER (NWT)
-North Inlet LTER (NIN)
-North Temperate Lakes LTER (NTL)
-Northeast U.S. Shelf LTER (NES)
-Northern Gulf of Alaska LTER (NGA)
-Okefenokee LTER
-Palmer  LTER (PAL)
-Plum Island Ecosystem LTER (PIE)
-Santa Barbara Coastal  LTER (SBC)
-Sevilleta LTER (SEV)
-Shortgrass Steppe LTER (SGS)
-Virginia Coast Reserve LTER (VCR)
