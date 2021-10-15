@@ -55,11 +55,11 @@ They can also use ROR's (and uther identifier systems) to decribe the publisher:
   </publisher>
 ```
 
-##Action requested:##
+## Action requested: ##
 Each site Information Manager should enter information relevant to their ROR identifier in the shared spreadsheet as described below. 
 
 
-**How to request an ROR identifier**
+### How to request an ROR identifier ###
 
 1. Visit the [ROR Homepage](https://ror.org/) to learn about ROR IDs.
 2. Check if your LTER Program has an ROR ID on the [search page](https://ror.org/search).
@@ -68,7 +68,7 @@ Each site Information Manager should enter information relevant to their ROR ide
 3. Go to the [LTER google sheet](https://docs.google.com/spreadsheets/d/1qiUMJ1jm_EDa2uM_qQY-U6To7qleQJnntcl1a-VM3m8/edit#gid=0), and enter your information according to the instructions below. When we have received information from all sites (or as many as we can get) we will review for consistency and submit to ROR as a group.
 4. Because the ROR is curated, it may still take a few months for the request to be reviewed and the identifier assigned - but doing this as a group will definitely expedite the process. The LNO will alert sites when identifiers have been assigned.
 
-**Instructions for completing ROR spreadsheet**
+### Instructions for completing ROR spreadsheet ###
 
 |Question|Response|Questions/Notes|
 |---|---|---|
