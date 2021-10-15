@@ -26,7 +26,7 @@ The ROR structure allows three types of organizational relationships, with multi
     -  Environmental Data Initiative
     -  Related field stations
     -  Co-PI institutions
-    -  Outreach partners https://portal.edirepository.org/nis/auditReport.jsp
+    -  Outreach partners
 -  **Child:** Sub- or spinoff organizations.
 
 When an ROR is created, sites can use that identifier in EML metadata to identify data associated with a site, for example:
