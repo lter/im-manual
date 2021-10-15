@@ -68,7 +68,7 @@ Each site Information Manager should enter information relevant to their ROR ide
 1. Visit the [ROR Homepage](https://ror.org/) to learn about ROR IDs.
 2. Check if your LTER Program has an ROR ID on the [search page](https://ror.org/search).
     - Assuming that the program does not already exist, continue to item 3. 
-    - If the program does exist in the ROR directory, you will be requesting a change the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). You will need the site's existing ROR and should follow the guidelines below in completing the questionairre.  
+    - If the program does exist in the ROR directory, you will be requesting a change through the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). You will need the site's existing ROR and should follow the guidelines below in completing the questionairre.  
 3. Go to the [LTER google sheet](https://docs.google.com/spreadsheets/d/1qiUMJ1jm_EDa2uM_qQY-U6To7qleQJnntcl1a-VM3m8/edit#gid=0), and enter your information according to the instructions below. When we have received information from all sites (or as many as we can get) we will review for consistency and submit to ROR as a group.
 4. Because the ROR is curated, it may still take a few months for the request to be reviewed and the identifier assigned - but doing this as a group will definitely expedite the process. The LNO will alert sites when identifiers have been assigned.
 
@@ -98,3 +98,6 @@ Crossref funder ID for the organization (if available)|n/a unless your site fund
 |Related Organizations (Fill or create a new column for each related organization.)| The LTER Network will be a  parent to LTER sites and sites can also add other parent and related organizations. For example, they may want to include their institutions as a second “parent” organization or a field station, CZO, NEON site, outreach partner, etc. at the same location as a “related” organization.|Other LTER sites should be related automatically by virtue of having the same parent.| 
 |City|city (or location) of the **site**, rather than the home institution|ROR uses GeoNames for this field, so what you want is the name of the location in GeoNames database that best represents the location of your site.|
 |Country|The country (or continent) associated with the location of the research site||
+
+## What happens when we need to update the information?##
+When a site moves institutions or needs to update partners, simply request a change to ROR metdata through the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). The sites identifier will remain the same, but parent institution or other metadata will be updated.
