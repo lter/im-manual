@@ -1,3 +1,8 @@
+layout: page
+title: "Site Identifiers"
+permalink: /site-identifier/
+
+
 # LTER Site Identifiers #
 *Proposed plan - developed by Marty Downs (LNO), Tim Whiteaker (BLE), An Nguyen (BLE)
 Draft: 2021-10-15*
