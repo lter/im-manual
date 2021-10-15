@@ -8,8 +8,8 @@ What do you need to do?
 * Ask for help with something
 * Share an event
 * [Update my site's personnel](http://lter.github.io/im-manual/site-personnel)
-* [Update my site's publications](https://github.io/im-manual/site-publications)
-* [Obtain a unique site identifier](https://github.io/im-manual/site-identifier)
+* [Update my site's publications](https://lter.github.io/im-manual/site-publications)
+* [Obtain a unique site identifier](https://lter.github.io/im-manual/site-identifier)
 * Suggest edits to the IM Manual
 * Create (or edit) a site website
 * Write Ecological Markup Language (EML)
