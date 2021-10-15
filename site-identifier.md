@@ -16,15 +16,13 @@ ROR has agreed to provide identifiers to all LTER sites as a batch and link them
 The ROR structure allows three types of organizational relationships, with multiple instances of each:
 
 -  **Parent Institutions:** A site should include both the LTER Network and their home institution as “parent” organizations
-  -  Long Term Ecological Research Network
-  -  University to which the LTER grant is awarded
-
+    -  Long Term Ecological Research Network
+    -  University to which the LTER grant is awarded
 -  **Related Institutions:** This is closest to partners and would include the field station or Experimental Forest or Range where an LTER site is located (such as Kellogg Biological Station for KBS LTER or Toolik Field Station for Arctic LTER); outreach partners (such as Asombro for Jornada LTER or Bell Museum for MSP LTER); and the institutions of co-PIs and cooperators, such as CalState Northridge for Moorea Coral Reef LTER.
-  -  Environmental Data Initiative
-  -  Related field stations
-  -  Co-PI institutions
-  -  Outreach partners
-  -  
+    -  Environmental Data Initiative
+    -  Related field stations
+    -  Co-PI institutions
+    -  Outreach partners 
 -  **Child:** Sub- or spinoff organizations.
 
 When an ROR is created, sites can use that identifier in EML metadata to identify data associated with a site, for example:
