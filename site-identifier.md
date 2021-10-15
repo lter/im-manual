@@ -68,7 +68,7 @@ Each site Information Manager should enter information relevant to their ROR ide
 1. Visit the [ROR Homepage](https://ror.org/) to learn about ROR IDs.
 2. Check if your LTER Program has an ROR ID on the [search page](https://ror.org/search).
     - Assuming that the program does not already exist, continue to item 3. 
-    - If the program does exist in the ROR directory, you will be requesting a change through a different process. Make a note of the existing ROR # and skip to **updating your ROR**, below.  
+    - If the program does exist in the ROR directory, you will be requesting a change the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). You will need the site's existing ROR and should follow the guidelines below in completing the questionairre.  
 3. Go to the [LTER google sheet](https://docs.google.com/spreadsheets/d/1qiUMJ1jm_EDa2uM_qQY-U6To7qleQJnntcl1a-VM3m8/edit#gid=0), and enter your information according to the instructions below. When we have received information from all sites (or as many as we can get) we will review for consistency and submit to ROR as a group.
 4. Because the ROR is curated, it may still take a few months for the request to be reviewed and the identifier assigned - but doing this as a group will definitely expedite the process. The LNO will alert sites when identifiers have been assigned.
 
