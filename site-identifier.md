@@ -9,7 +9,7 @@ Draft: 2021-10-15*
 
 **Goal:** Obtain unique identifiers for LTER sites analogous to ORCIDs for individuals that can be used to identify products and data associated with LTER programs. 
 
-![graphic of unique identifiers for people, publications, data and organizations](https://../images/Unique Site Indetifiers.png)
+![graphic of unique identifiers for people, publications, data and organizations](images/Unique Site Identifiers.png)
 **Why:** 
 Unique identifiers are recommended by FAIR guidelines to disambiguate organizations and their relationships in metadata. See, for example, DataONE’s [FAIR Assessment report](https://search.dataone.org/quality/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ble%2F1%2F7). EDI is developing R tools to accomplish the same checks. Ultimately, a unique site identifier can be used to link data, papers, people, and projects to the site for improved reporting. It is also on the ORCID development roadmap for use as primary affiliation.
 
