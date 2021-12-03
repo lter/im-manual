@@ -7,7 +7,7 @@ These pages are intended to help you find your way around our various communicat
 
 *  LTER Network Website: Take some time with the [LTER Network Website](https://lternet.edu), which has a wealth of information about the structure and history of the Network and sites. 
 
-*  LTER mailing lists: Each committee has an email discussion list. For information managers, the posting address is <im@lternet.edu>. Subscribe to the [Information Managers Mailing list](https://lists.lternet.edu/listinfo/im) for updates and discussion of all things related to information management in the LTER Network. Sign up for the [all-LTER email list](https://lists.lternet.edu/listinfo/all-lter) to receive infrequent LTER related announcements.
+*  LTER mailing lists: Each committee has an email discussion list. For information managers, the posting address is <im@lternet.edu>. Subscribe to the [Information Managers email list](https://lists.lternet.edu/listinfo/im) for updates and discussion of all things related to information management in the LTER Network. Sign up for the [all-LTER email list](https://lists.lternet.edu/listinfo/all-lter) to receive infrequent LTER related announcements.
 
 *  [LTER Hub](https://lternetwork.force.com/lterhub/s/login/): We are in the process of transitioning away from mailing lists to a community platform, the LTERHub, where you can join a variety of interest groups, subscribe and unsubscribe from newsletters, and control your own communications preferences. Create an account on the LTER Hub at https://lternetwork.force.com/lterhub/s/login/. The "Create new account" link is at the lower right of the <log in> button.
 
