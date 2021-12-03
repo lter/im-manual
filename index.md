@@ -1,5 +1,5 @@
 ## LTER Information Management Manual
-### Updated 2021-08-09
+### Updated 2021-12-03
 
 What do you need to do?
 
