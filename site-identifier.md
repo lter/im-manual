@@ -30,7 +30,8 @@ The ROR structure allows three types of organizational relationships, with multi
 -  **Child:** Sub- or spinoff organizations.
 
 When an ROR is created, sites can use that identifier in EML metadata to identify data associated with a site, for example:
-```
+
+```xml
     <contact>
       <organizationName>NTL LTER</organizationName>
       <address>
@@ -45,9 +46,9 @@ When an ROR is created, sites can use that identifier in EML metadata to identif
     </contact>
 ```
     
-In addition to identifying associations directly within the ROR record (LTER network, home institution, EDI, etc.) they can also be specified in the EML  `<associatedParty>` element with appropriate role descriptions. It would make sense to use this option for data set specific affiliations.
+In addition to identifying associations directly within the ROR record (LTER network, home institution, EDI, etc.) they can also be specified in the EML  `<associatedParty>` element with appropriate role descriptions. It would make sense to use this option for dataset specific affiliations.
 
-```
+```xml
     <associatedParty>
       <organizationName>United States Geological Survey</organizationName>
       <onlineUrl>http://www.usgs.gov/</onlineUrl>
@@ -59,7 +60,7 @@ In addition to identifying associations directly within the ROR record (LTER net
 
 The `<publisher>` element will be used by EDI and will be automatically inserted (replaced) upon data submission:
 
-```
+```xml
   <publisher>
     <organizationName>Environmental Data Initiative</organizationName>
     <electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress>
@@ -99,7 +100,7 @@ Each site Information Manager should enter information relevant to their ROR ide
 |What are you registering?|“Add a new organization to ROR” (or, if the organization already exists, “Modify the information in an existing ROR record”)||
 |...please confirm that your organization is within this scope|Yes|We have already confirmed that LTERs are appropriate for ROR|
 |Have you checked that this organization already has an ROR...|Yes|If your site already has an ROR, you shouldn’t have gotten this far.|
-|Name of organization to be added|Name of your LTER, in the form: \<Your Site Name\> LTER (i.e “Beaufort Lagoon Ecosystems LTER”)||
+|Name of organization to be added|Name of your LTER, in the form: \<Your Site Name\> LTER (e.g., “Beaufort Lagoon Ecosystems LTER”)||
 |Organization website|link to LTER site home page||
 |Provide a link to a webpage with research publications associated with this organization|link to your site bibliography page|This can be on your own website, your Zotero library, or on the Network website, for example: https://lternet.edu/bibliography/?lterSite=Beaufort+Lagoon+Ecosystem&searchButton=Search|
 |Type of organization|Other|The Allowed types are: Education, Healthcare, Company, Archive, Nonprofit, Government, Facility, Other. We discussed this with ROR and agreed that none of the other types work for LTERs. “Education” is strictly for schools and universities. “Facility” fits the related field stations, but not the LTERs.|  
@@ -111,8 +112,8 @@ Crossref funder ID for the organization (if available)|blank unless your site fu
 |Organization abbreviation|Three letter abbreviation of your site e.g., "BLE," “AND”, “LNO”, etc.|Can accept more than 1|
 |Other variations of the organization name|Include at least: 1) The name of the site completely spelled out, with both “long-term” and “long term”; 2) The three-letter abbreviation, plus the LTER abbreviation (e.g. MCR LTER); 3) Any other variations of the name (e.g. Niwot or Niwot Ridge, Moorea or Mo’orea, etc.)|See MCM’s listing for an example.|
 |Related Organizations (Fill or create a new column for each related organization.)| The LTER Network will be a  parent to LTER sites and sites can also add other parent and related organizations. For example, they may want to include their institutions as a second “parent” organization or a field station, CZO, NEON site, outreach partner, etc. at the same location as a “related” organization.|Other LTER sites should be related automatically by virtue of having the same parent.| 
-|City|city (or location) of the **site**, rather than the home institution|ROR uses GeoNames for this field, so what you want is the name of the location in GeoNames database that best represents the location of your site.|
+|City|city (or location) of the **site**, rather than the home institution|ROR uses GeoNames for this field, so what you want is the name of the location in [the GeoNames database](https://www.geonames.org/) that best represents the location of your site.|
 |Country|The country (or continent) associated with the location of the research site||
 
 ## What happens when we need to update the information? ##
-When a site moves institutions or needs to update partners, simply request a change to ROR metadata through the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). The sites identifier will remain the same, but parent institution or other metadata will be updated.
+When a site moves institutions or needs to update partners, simply request a change to ROR metadata through the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). The site identifier will remain the same, but parent institution or other metadata will be updated.
