@@ -12,4 +12,4 @@ What do you need to do?
 * [Obtain a unique site identifier](https://lter.github.io/im-manual/site-identifier)
 * [Suggest edits to the IM Manual](https://github.com/lter/im-manual/issues)
 * [Create (or edit) a site website](https://lter.github.io/im-manual/site-websites)
-* Write Ecological Markup Language (EML)
+* [Write Ecological Markup Language (EML)](https://lter.github.io/im-manual/eml)
