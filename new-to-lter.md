@@ -1,7 +1,7 @@
 # Welcome to the LTER community!
 
 Although each of the sites and roles are a bit different, overall, the LTER Network is a truly congenial, helpful, and welcoming community. 
-These pages are intended to help you find your way around our various communication channels in your first weeks and months. For resources specific to information management, please see [new-to-im](new-to-im.md).
+These pages are intended to help you find your way around our various communication channels in your first weeks and months. For resources specific to information management (IM), please see [new-to-im](new-to-im.md).
 
 ## How to get connected:
 
