@@ -1,3 +1,5 @@
+# Getting Connected with Information Management
+
 You're familiar with the LTER Network, but haven't worked as an information manager (IM) before. Here are a few things for you to know and do as you get started.
 
 * [**Current IM Committee Information**](https://lternetwork.force.com/lterhub/s/committee/a0t4S0000000YXZQA2/information-managers): Please join and follow the IM Committee (IMC) on the LTERHub to take part in IM discussions and connect with colleagues.
