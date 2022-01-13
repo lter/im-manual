@@ -14,47 +14,81 @@ Rather than having an individual simply associated with a site or not, the new s
 
 Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, log in to LTERHub and [create a case](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, and email address. The LNO will create a contact and a user for them and trigger a message to login and fill in other key information.
 
-Once a user is created and they have logged in, they are able to update their own information, including email (which automatically updates the login email), site and institutional affiliations, ORCID, social media accounts and research interests. They can also join discussion groups and update committee memberships.
+Once a user is created and they have logged in, they are able to update their own information, including email (which automatically updates the login email within 24 hours), site and institutional affiliations, ORCID, social media accounts, and research interests. They can also join discussion groups and update committee memberships.
 
-## Making bulk updates
+## Making bulk updates **(new January 12, 2022)**
 
-Usually, there are a few times a year when many people need to be added at once. In those situations, create an Excel or CSV file with the following headers that contains all the individuals that are (to the best of your knowledge) new to LTER or that need to be updated. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them -- but it takes some extra work.
+Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can now be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers for each site have read access to the file, but edit permissions will be granted on a sheet-by-sheet basis to only one individual per site.
 
-Upload the file as an attachment to [a case in the LTERhub](https://lternetwork.force.com/lterhub/s/contactsupport) using the case reason "new participant."
+### Overall workflow ###
+-  The LTERHub-ex-im file updates automatically creates a backup and downloads current information in the LTERHub **on the 15th of each month**. Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by logging into the LTERHub and [creating a case](https://lternetwork.force.com/lterhub/s/contactsupport). Your sheet will be refreshed at the same time edit access is granted. 
+-  Using the instructions below, make edits to your site's personnel list. Where you do not have changes to make, simply leave the field blank or with the existing information.  Try to concentrate the editing into a short period of time to avoid the issue of users logging in and making their own conflicting edits.
+-  While you are making edits, your case remains open in LTERHub. When edits are completed, update your case to notify the LTER Network Office. 
+-  At this time, uploading back to LTERHub is not fully automated so that any unexpected behaviors can be quickly identified and corrected. When your upload has been completed, the spreadsheet will be refreshed and you will be notified, so you can easily confirm that the information is correct.
+-  Your case will be closed out.
 
-|Site|First_Name|Middle_Name|Last_Name|Email_Address|Status\* |Site_Role_1\*\* |Role_1_Start (if known)|Role_1_End|Site_Role_2|Role_2_Start|Role_2_End|
-|---|---|---|---|---|---|---|---|---|---|---|
-|ABC|Jane|Q|Ecologist|jecologist@institution.edu|Current|Graduate Student|2021|n/a||||
-|DEF|Joe|F|Biogeochemist|jbiogeochemist@institution.edu|Current|Information Manager|2010|n/a|Investigator|2021|n/a|
-|XYZ|James|J|Silverback|jjsilverback@agency.gov|Former|Investigator|1980|1990|Retired|1990|1999|
-|JKL|Mary|Q|Whosits|mqwhosits@institution.edu|Former|Unknown|||||
+### Row and Column Descriptions ###
 
-At the time they are added, each new participant will receive an automatic email from LTERHub with a welcome message and a link to set their password and update their profile with additional information such as their ORCID, institutional affiliations, a biographical statement, social media information, a photograph or avatar -- and demographic information. 
+**Rows**
+**Row 1** lists the common-language descriptions of each field. **Row 2** lists the SalesForce names for each field. This assists in upload and cannot be edited.
+Each row represents an affiliation between an individual and a site in a particular role, for a specific period of time. Within each sheet, records are sorted first by "Current"/"Former" status and then alphabetically by last name. Be aware that the same individual may have both current and former affiliations. 
 
-\* *"Status" has 2 options: "Current" or "Former." This reflects an individual's affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active."*
+**Columns:**
+-  **Database Keys:**
+   -  A.  **Affiliation ID** *(hidden and protected)*: The unique key for the specific affiliation (role-site/institution-individual combination)
+   -  B.  **Contact ID** *(hidden and protected)*: The unique key for the individual contact associated with that affiliation
+   -  C.  **Account ID** *(hidden and protected)*: The unique key for the account (site or institution) associated with that affiliation
+   -  D.  **Profile ID** *(hidden and protected)*: The unique key for the user associated with that affiliation
+  
+-  **Site Information:**  
+   -  E.  **Acronym**: The 3-letter site acronym. This should **always** match the spreadsheet tab in which you are editing. If an affiliation with a different site needs to be created or edited, that should be done by the individual or by the designated editor for that site.
+   
+-  **Contact-related information:**  	
+   -  F.  **Last Name**: Last name of the individual contact (can accept un-hyphenated last names)
+   -  G.  **First Name**: First name of the individual contact	
+   -  H.  **Middle Name**: Middle name of the individual contact (if known)
+   -  I.  **Email**: Active email address of the individual contact. Be cautious in changing this. It also serves as the user's login and (especially for former site participants) you may not have the most current information.	
+   -  J.  **ORCID**: Once entered, this is unlikely to change.	Users will be prompted to update ORCIDs on site registration.
+   -  P.  **Site-Contact ID**: If your site uses a unique identifier for individuals that could aid in matching site and network-level information, this is the place to enter it. If you do not use such a system, please leave this field blank.	*(Located at the end as only a few sites use this field.)*
 
-\** *Options for "Role" are detailed later on this page.*
+-  **Affiliation-related information:**
+   -  K.  **Role (Affiliation)**: Recall that participants may have multiple simultaneous affiliations. This field holds the role for one type of affiliation with a particular site. The (limited) choices for this field are available in the drop down. Please DO NOT add choices that do not appear in the drop down selector. *Options for "Role" are detailed later on this page.
+   -  L.  **Start Year (Affiliation)**: The year that this affiliation started - to the best of your knowledge. This information is not strictly required and participants can update this information directly when they register on the site.	
+   -  M.  **End Year (Affiliation)**: 	The year that this affiliation ended - to the best of your knowledge. This information is not strictly required and participants can update this information directly when they register on the site. When an entered end year is less than the current year, the affiliation status will be automatically converted to "Former" at the time data is uploaded.
+   -  N.  **Status (Affiliation)**: Status" has 2 options: "Current" or "Former." This reflects an individual's affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active." This field controls whether individuals appear in the site directory for the affiliated site.
+   -  O.  **Primary (Affiliation)**: This boolean field identifies this affiliation as the primary one for the associated individual. In general, it should be set by the individual during the registration process.	
+ 
+-  **User-related information:**
+   -  Q.  **Active User?**: If the individual has registered, this field contains the login of the associated user. If it is blank, it likely means that the user has not registered or has not been properly associated with this affiliation.
 
-**The table above illustrates four common cases:**
+### Specific Use Cases ###
 
-* **New participants:** The only information required is Site, First Name, Middle Name, Last Name, Email address, Status, Role. For additional clarity, include the start date (especially if different from the current year). 
+*  **New participants:** Add new site participants at the bottom of your site's sheet, below the existing entries. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them.  Fill in:	
+   * Last Name 
+   * First Name
+   * Middle Name (if known) 
+   * Email 
+   * ORCID (if known): Use the full http format, e.g https://orcid.org/0000-0003-2833-956X
+   * Role (with respect to your site): If the individual will hold multiple roles, add them each on a new line.	
+   * Start Year (Affiliation): For new individuals, this will typically be the current year.	
+   * End Year (Affiliation): For new individuals, leave this blank.
+   * Status (Affiliation): Choose "Current"
+   * Primary (Affiliation): If you are quite confident that this affiliation is the primary LTER affiliation for this individual, enter TRUE or conversely, FALSE. Otherwise, leave this field blank.
+   * Site-Contact ID: If your site uses this field, enter the site-id for the individual. Enter the same site-id for all affiliations that individual may have with your site. If your site doesn't use this field (most sites) leave it blank.	
+   * Active User?: **Leave this field blank**
+   
+*  **Adding roles:** Add new roles at the bottom of your site's sheet, below the existing entries and the new participants. Separate new roles from new participants with a blank line. Copy contact-related information (Last Name, First Name, Middle Name, Email, and ORCID) from an existing affiliation for that individual and update the affiliation-related information as needed.
 
-* **Adding roles:** LTERHub is designed to accommodate multiple simultaneous roles and site affiliations. When an individual adds a new role at your site and keeps the old role (e.g. an Information Manager becomes a co-PI and retains the Information Manager role) add the new role in the Site_Role_2 column; add the year the new role started in Role_2_Start column; and enter n/a in the Role_1_End and Role_2_End columns. If you know what year the person started role 1, add it. But incorrect information is worse than no information. Ideally, the individual will update this information themselves.
+* **Ending roles:** To end a role for an individual, simply enter the year that they stopped serving in that role into the "End Year (Affiliation)" field. If they never served that role, please contact Marty Downs (downs@nceas.ucsb.edu) for troubleshooting assistance.
 
-* **Changing or ending roles:** If someone's role has changed (e.g., a graduate student becomes a postdoc), add the postdoc role and the year it started in Site_Role_2 and Role_2_Start respectively. Add the graduate student start- and end-years in the Role_1_Start and Role_1_End columns. Enter n/a in the Role_2_End column to indicate that the role is ongoing.
-
-* **Former participants:** Only current participants should be displaying in the [LTER directory](https://lternetwork.force.com/lterhub/s/directory). If individuals are showing up that are no longer affiliated with your site, it's because the LNO has no information to indicate that they are no longer actively associated with your site. In these cases, include them in your table with "Former" in the Status column. If you know what role they held, please include it. If you have made a reasonable attempt to find out what role they held, but cannot, use "Unknown" in the Site_Role_1 column to indicate that the information is not available.
+* **Former participants:** Only current participants should be displaying in the [LTER directory](https://lternetwork.force.com/lterhub/s/directory). If individuals are showing up that are no longer affiliated with your site, it's usually because the LTER Network Office has no information to indicate that they are no longer actively associated with your site. In these cases, simply change the "Status (Affiliation)" field to "Former". If you can make a fair guess at an end year, include that information. If you can't guess within a year or two, leave it blank. 
 
 ## Detailed Field descriptions and options 
-
-### Field Name Definition Options
 
 A few fields use limited options and will not accept any text other than the below.
 
 * Site options: AND, ARC, BES, BLE, BNZ, CAP, CCE, CDR, CWT, FCE, GCE, HBR, HFR, JRN, KBS, KNZ, LUQ, MCM, MCR, MSP, NES, NGA, NTL, NWT, PAL, PIE, SBC, SEV, SGS, VCR
-
     * Special Options: EDI, LNO, INT, NWK are for personnel associated with the Environmental Data Initiative (EDI), LTER Network Office (LNO), International LTER (INT), and the Network as a whole (NWK)--for example, staff of related organizations and networks. 
-
 * Site Role:
     * **Lead Principal Investigator:** The primary individual who is responsible for the scientific or technical direction of the project.
     * **Co-Principal Investigator:** The individuals who are formally responsible for the scientific or technical direction of the project. (Cover page investigators.) 
@@ -69,9 +103,9 @@ A few fields use limited options and will not accept any text other than the bel
     * **Administrative Staff:** Persons working on the project in a non-research capacity in an administrative role. 
     * **Other Staff:** Persons working on the project in a non-research capacity, such as draftsmen, animal caretakers, electricians and custodial personnel. 
     * **Interested Party:** A person who is associated with an LTER site or the Network through interest, educational programs, public outreach etc., may include educational or community partners, neighbors, board members, etc. 
-    * **Retired:** _Emeritus_ Investigators who maintain an active interest in the site and the Network. Not the same as past network members (who are designated as "Former"). 
+    * **Retired:** _Emeritus_ Investigators who maintain an active interest in the site and the Network. Not necessarily the same as past network members (who are designated as "Former"). 
 
-* Less-frequently used Site Role options, for individuals that you want to associate with your site:
+* Less-frequently used Site Role options, for individuals that you want to associate with your site in specific roles:
     * K-12 Teacher
     * Volunteer
     * Media
