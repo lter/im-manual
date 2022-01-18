@@ -3,7 +3,7 @@
 ## Overview
 It's helpful to have an overview of how the community platform works before detailing the process of adding new people. There are two major components to the SalesForce installation behind the community platform:
 * The Client (or Customer or Constituent) Relationship Management System (CRM) is basically just a relational database that is structured to hold the kind of data that organizations usually need about the people who participate in them. New participants have to be added to the CRM before anything else can happen and licenses to the CRM are expensive (therefore limited to the LTER Network Office, or LNO). 
-* The community platform houses the interactions between people ("users") and groups within the Network. Customer User licenses allow individuals to login, easily update their own information, join and leave groups, post updates, and ask questions.  The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (created by the Network Office when a person is added and updated by the individual).
+* The community platform houses the interactions between people ("users") and groups within the Network. Customer User licenses allow individuals to log in, easily update their own information, join and leave groups, post updates, and ask questions.  The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (created by the Network Office when a person is added and updated by the individual).
 
 ![](images/community-platform-overview.png)
 
@@ -12,7 +12,7 @@ Rather than having an individual simply associated with a site or not, the new s
 
 ## Making individual updates
 
-Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, log in to LTERHub and [create a case](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, and email address. The LNO will create a contact and a user for them and trigger a message to login and fill in other key information.
+Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, log in to LTERHub and [create a case](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, and email address. The LNO will create a contact and a user for them and trigger a message to log in and fill in other key information.
 
 Once a user is created and they have logged in, they are able to update their own information, including email (which automatically updates the login email within 24 hours), site and institutional affiliations, ORCID, social media accounts, and research interests. They can also join discussion groups and update committee memberships.
 
@@ -21,7 +21,7 @@ Once a user is created and they have logged in, they are able to update their ow
 Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can now be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers for each site have read access to the file, but edit permissions will be granted on a sheet-by-sheet basis to only one individual per site.
 
 ### Overall workflow ###
--  The LTERHub-ex-im file updates automatically creates a backup and downloads current information in the LTERHub **on the 15th of each month**. Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by logging into the LTERHub and [creating a case](https://lternetwork.force.com/lterhub/s/contactsupport). Your sheet will be refreshed at the same time edit access is granted. 
+-  The LTERHub-ex-im file automatically creates a backup and downloads current information from the LTERHub **on the 15th of each month**. Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by logging into the LTERHub and [creating a case](https://lternetwork.force.com/lterhub/s/contactsupport). Your sheet will be refreshed at the same time edit access is granted. 
 -  Using the instructions below, make edits to your site's personnel list. Where you do not have changes to make, simply leave the field blank or with the existing information.  Try to concentrate the editing into a short period of time to avoid the issue of users logging in and making their own conflicting edits.
 -  While you are making edits, your case remains open in LTERHub. When edits are completed, update your case to notify the LTER Network Office. 
 -  At this time, uploading back to LTERHub is not fully automated so that any unexpected behaviors can be quickly identified and corrected. When your upload has been completed, the spreadsheet will be refreshed and you will be notified, so you can easily confirm that the information is correct.
@@ -29,7 +29,8 @@ Usually, there are a few times a year when many people need to be added at once.
 
 ### Row and Column Descriptions ###
 
-**Rows**
+**Rows:**
+
 **Row 1** lists the common-language descriptions of each field. **Row 2** lists the SalesForce names for each field. This assists in upload and cannot be edited.
 Each row represents an affiliation between an individual and a site in a particular role, for a specific period of time. Within each sheet, records are sorted first by "Current"/"Former" status and then alphabetically by last name. Be aware that the same individual may have both current and former affiliations. 
 
@@ -52,7 +53,7 @@ Each row represents an affiliation between an individual and a site in a particu
    -  P.  **Site-Contact ID**: If your site uses a unique identifier for individuals that could aid in matching site and network-level information, this is the place to enter it. If you do not use such a system, please leave this field blank.	*(Located at the end as only a few sites use this field.)*
 
 -  **Affiliation-related information:**
-   -  K.  **Role (Affiliation)**: Recall that participants may have multiple simultaneous affiliations. This field holds the role for one type of affiliation with a particular site. The (limited) choices for this field are available in the drop down. Please DO NOT add choices that do not appear in the drop down selector. *Options for "Role" are detailed later on this page.
+   -  K.  **Role (Affiliation)**: Recall that participants may have multiple simultaneous affiliations. This field holds the role for one type of affiliation with a particular site. The (limited) choices for this field are available in the drop down. Please DO NOT add choices that do not appear in the drop down selector. Options for "Role" are detailed later on this page.
    -  L.  **Start Year (Affiliation)**: The year that this affiliation started - to the best of your knowledge. This information is not strictly required and participants can update this information directly when they register on the site.	
    -  M.  **End Year (Affiliation)**: 	The year that this affiliation ended - to the best of your knowledge. This information is not strictly required and participants can update this information directly when they register on the site. When an entered end year is less than the current year, the affiliation status will be automatically converted to "Former" at the time data is uploaded.
    -  N.  **Status (Affiliation)**: Status" has 2 options: "Current" or "Former." This reflects an individual's affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active." This field controls whether individuals appear in the site directory for the affiliated site.
