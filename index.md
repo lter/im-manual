@@ -1,5 +1,5 @@
 ## LTER Information Management Manual
-### Updated: "`r format(Sys.time(), '%d %B, %Y')`"
+### Updated: 'date'
 
 This manual gathers in one place the current practices and procedures that apply to information management **within the LTER Network**. It does not aspire to be a single source of information and resources for information management more generally -- nor even for the myriad best practices that have been established through IM collaboration in the LTER Network. 
 
