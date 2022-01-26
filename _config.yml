@@ -1,5 +1,4 @@
-remote_theme: pmarsceill/just-the-docs
+theme: jekyll-theme-leap-day
 title: [LTER Information Managers's Manual]
 description: [A getting started guide for serving as the information manager of a Long Term Ecological Research (LTER) Network site]
 
-theme: jekyll-theme-leap-day
