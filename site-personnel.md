@@ -12,13 +12,17 @@ Rather than having an individual simply associated with a site or not, the new s
 
 ## Making individual updates
 
-Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, log in to LTERHub and [create a case](https://lternetwork.force.com/lterhub/s/contactsupport) with their name, role, and email address. The LNO will create a contact and a user for them and trigger a message to log in and fill in other key information.
+Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [log in to LTERHub](https://lternetwork.force.com/lterhub/s/login/) and choose the teal-colored <Start a Support Case> button. Include the new user's name, role, and email address. The LNO will create a contact and a user for them and trigger a message for them to log in and fill in other key information.
 
-Once a user is created and they have logged in, they are able to update their own information, including email (which automatically updates the login email within 24 hours), site and institutional affiliations, ORCID, social media accounts, and research interests. They can also join discussion groups and update committee memberships.
+Once a user is created and they have logged in, they are able to update their own information from their user profile in the top right corner. User-editable information includes email (which automatically updates the login email within 24 hours), site and institutional affiliations, ORCID, social media accounts, and research interests. They can also join discussion groups and update committee memberships.
+   
+If information needs to be updated that is not user-editable (or a user is unwilling to edit their own information), start a support case, as above, and describe the needed change(s).
 
 ## Making bulk updates **(new January 12, 2022)**
 
 Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can now be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers for each site have read access to the file, but edit permissions will be granted on a sheet-by-sheet basis to only one individual per site.
+   
+*Note that Google sheets, unlike Excel sheets or csv files, save data continuously as it is entered.*
 
 ### Overall workflow ###
 -  The LTERHub-ex-im file automatically creates a backup and downloads current information from the LTERHub **on the 15th of each month**. Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by logging into the LTERHub and [creating a case](https://lternetwork.force.com/lterhub/s/contactsupport). Your sheet will be refreshed at the same time edit access is granted. 
@@ -30,9 +34,11 @@ Usually, there are a few times a year when many people need to be added at once.
 ### Row and Column Descriptions ###
 
 **Rows:**
+**Row 1** lists the SalesForce names for each field. This assists in upload and cannot be edited.
 
-**Row 1** lists the common-language descriptions of each field. **Row 2** lists the SalesForce names for each field. This assists in upload and cannot be edited.
-Each row represents an affiliation between an individual and a site in a particular role, for a specific period of time. Within each sheet, records are sorted first by "Current"/"Former" status and then alphabetically by last name. Be aware that the same individual may have both current and former affiliations. 
+**Row 2** lists the common-language descriptions of each field. **Row 2**  
+   
+**Data rows:** Each data row represents an affiliation between an individual and a site in a particular role, for a specific period of time.  Within each sheet, records are sorted first by "Current"/"Former" status and then alphabetically by last name. Be aware that the same individual may have both current and former affiliations. 
 
 **Columns:**
 -  **Database Keys:**
@@ -45,26 +51,30 @@ Each row represents an affiliation between an individual and a site in a particu
    -  E.  **Acronym**: The 3-letter site acronym. This should **always** match the spreadsheet tab in which you are editing. If an affiliation with a different site needs to be created or edited, that should be done by the individual or by the designated editor for that site.
    
 -  **Contact-related information:**  	
-   -  F.  **Last Name**: Last name of the individual contact (can accept un-hyphenated last names)
+   -  F.  **Last Name**: Last name of the individual contact. Text fields can accept both hyphenated and un-hyphenated names. Special characters may be used with caution, but HTML formatting is not permitted. 
    -  G.  **First Name**: First name of the individual contact	
-   -  H.  **Middle Name**: Middle name of the individual contact (if known)
+   -  H.  **Middle Name**: Middle name or initial of the individual contact (if known). If initials are used, please include a period.
    -  I.  **Email**: Active email address of the individual contact. Be cautious in changing this. It also serves as the user's login and (especially for former site participants) you may not have the most current information.	
    -  J.  **ORCID**: Once entered, this is unlikely to change.	Users will be prompted to update ORCIDs on site registration.
-   -  P.  **Site-Contact ID**: If your site uses a unique identifier for individuals that could aid in matching site and network-level information, this is the place to enter it. If you do not use such a system, please leave this field blank.	*(Located at the end as only a few sites use this field.)*
+   -  P.  **Contact-Site ID**: If your site uses a unique identifier for individuals that could aid in matching site and network-level information, this is the place to enter it. If you do not use such a system, please leave this field blank.	*(Located at the end as only a few sites use this field.)*
 
 -  **Affiliation-related information:**
    -  K.  **Role (Affiliation)**: Recall that participants may have multiple simultaneous affiliations. This field holds the role for one type of affiliation with a particular site. The (limited) choices for this field are available in the drop down. Please DO NOT add choices that do not appear in the drop down selector. Options for "Role" are detailed later on this page.
    -  L.  **Start Year (Affiliation)**: The year that this affiliation started - to the best of your knowledge. This information is not strictly required and participants can update this information directly when they register on the site.	
    -  M.  **End Year (Affiliation)**: 	The year that this affiliation ended - to the best of your knowledge. This information is not strictly required and participants can update this information directly when they register on the site. When an entered end year is less than the current year, the affiliation status will be automatically converted to "Former" at the time data is uploaded.
    -  N.  **Status (Affiliation)**: Status" has 2 options: "Current" or "Former." This reflects an individual's affiliation with the site. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active." This field controls whether individuals appear in the site directory for the affiliated site.
-   -  O.  **Primary (Affiliation)**: This boolean field identifies this affiliation as the primary one for the associated individual. In general, it should be set by the individual during the registration process.	
+   -  O.  **Primary (Affiliation)**: This Boolean field identifies *this* affiliation as the primary one (across all LTER associations) for the associated individual. In general, it should be set by the individual during the registration process. Among several possible affiliations, it will usually be the most active or the most recent.	
  
 -  **User-related information:**
-   -  Q.  **Active User?**: If the individual has registered, this field contains the login of the associated user. If it is blank, it likely means that the user has not registered or has not been properly associated with this affiliation.
+   -  Q.  **Active User?**: This field contains a Boolean (true/false) value indicting whether a user has been activated for this contact.
+   
+-  **Upload/Update results columns**: Columns S and beyond are used to store the result of the most recent uploads to SalesForce. Failures may indicate duplicate names or other conditions that require investigation. They should not be edited except by the LNO. 
 
 ### Specific Use Cases ###
 
-*  **New participants:** Add new site participants at the bottom of your site's sheet, below the existing entries. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them.  Fill in:	
+*  **New participants:** Add new site participants at the bottom of your site's sheet, below the existing entries. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them. For new participants with more than one role, include only the primary role at this stage. Follow the instructions below for "adding roles" to add additional affiliations. 
+   
+Fill in:	
    * Last Name 
    * First Name
    * Middle Name (if known) 
@@ -75,7 +85,7 @@ Each row represents an affiliation between an individual and a site in a particu
    * End Year (Affiliation): For new individuals, leave this blank.
    * Status (Affiliation): Choose "Current"
    * Primary (Affiliation): If you are quite confident that this affiliation is the primary LTER affiliation for this individual, enter TRUE or conversely, FALSE. Otherwise, leave this field blank.
-   * Site-Contact ID: If your site uses this field, enter the site-id for the individual. Enter the same site-id for all affiliations that individual may have with your site. If your site doesn't use this field (most sites) leave it blank.	
+   * Contact-Site ID: If your site uses this field, enter the site-id for the individual. Enter the same site-id for all affiliations that individual may have with your site. If your site doesn't use this field (most sites) leave it blank.	
    * Active User?: **Leave this field blank**
    
 *  **Adding roles:** Add new roles at the bottom of your site's sheet, below the existing entries and the new participants. Separate new roles from new participants with a blank line. Copy contact-related information (Last Name, First Name, Middle Name, Email, and ORCID) from an existing affiliation for that individual and update the affiliation-related information as needed.
