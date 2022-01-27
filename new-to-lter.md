@@ -13,7 +13,7 @@ These pages are intended to help you find your way around our various communicat
 
 *  LTER Newsletters: While creating an account on the LTERHub, you can sign up for the [LTER Network News](https://lternet.edu/lter-science-update-newsletter/), the LTER announcement list, a monthly LTER jobs newsletter, and [DataBits](https://lternet.edu/story_types/databits/), a bi-annual newsletter for all things IM. 
 
-*  LTER Slack: Sign up for the LTER Slack channel at https://slack.lternet.edu. If you are new to Slack, review the [quick start guide](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide).
+*  LTER Slack: Sign up for the [LTER Slack channel](https://slack.lternet.edu) at https://slack.lternet.edu. If you are new to Slack, review the [**quick start guide**](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide).
 
 *  Social Media: 
      *  [Twitter](https://twitter.com/USLTER): Follow @USLTER for the latest research news, chatter, and jobs. 
