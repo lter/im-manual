@@ -5,3 +5,7 @@ The LTER im-manual is intended for policies and practices that are LTER-specific
 All LTER Information Managers will want to "watch" the repo for updates or check back regularly.
 
 To contribute to the manual, please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+The last modified date is added to each page using code from Ryan Baumann:
+
+Baumann, Ryan. "Last Modified Dates for GitHub Pages Jekyll Posts." /etc (blog), 27 Apr 2020, https://ryanfb.github.io/etc/2020/04/27/last_modified_dates_for_github_pages_jekyll_posts.html (accessed 27 Jan 2022).
