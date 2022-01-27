@@ -3,7 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <script type="text/javascript">
+      function setModifiedDate() {
+        if (document.getElementById('last-modified')) {
+          fetch("https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ page.path }}")
+            .then((response) => {
+              return response.json();
+            })
+            .then((commits) => {
+              var modified = commits[0]['commit']['committer']['date'].slice(0,10);
+              if(modified != "{{ page.date | date: "%Y-%m-%d" }}") {
+                document.getElementById('last-modified').textContent = "Last Modified: " + modified;
+              }
+            });
+        }
+      }
+    </script>
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
@@ -13,7 +28,7 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
-  <body>
+  <body onload="setModifiedDate();">
     <div class="wrapper">
       <header>
         <h2 class="header"><a href="https://lter.github.io/im-manual">{{ site.title | default: site.github.repository_name }}</a></h2>
@@ -46,7 +61,9 @@
           </ul>
         {% endif %}
       </header>
-      <span>Published: {{ page.date | date: "%Y-%m-%d" }}</span><br/>
+      <section>
+        <span id='last-modified'/>
+      </section>
       <section>
         {{ content }}
       </section>
