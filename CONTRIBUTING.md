@@ -4,7 +4,7 @@ At a glance:
 
 * For modest edits that have been agreed to in IMEXEC, please ask to join the repo and edit directly
 * For major proposed edits that require review, please fork the repo, make edits, and submit a pull request
-* To make suggestions or call attention to sections that require revisions, use the [issue tracker](https://github.com/lter/im-manual/issues)
+* To make suggestions or call attention to sections that require revisions, or if you are unfamiliar with the Git process, use the [issue tracker](https://github.com/lter/im-manual/issues) to submit a new issue
 
 ## Editing Pages Directly
 
