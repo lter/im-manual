@@ -3,7 +3,7 @@
 ## Overview
 It's helpful to have an overview of how the community platform works before detailing the process of adding new people. There are two major components to the SalesForce installation behind the community platform:
 * The Client (or Customer or Constituent) Relationship Management System (CRM) is basically just a relational database that is structured to hold the kind of data that organizations usually need about the people who participate in them. New participants have to be added to the CRM before anything else can happen and licenses to the CRM are expensive (therefore limited to the LTER Network Office, or LNO). 
-* The community platform houses the interactions between people ("users") and groups within the Network. Customer User licenses allow individuals to log in, easily update their own information, join and leave groups, post updates, and ask questions.  The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (created by the Network Office when a person is added and updated by the individual).
+* The Community Platform houses the interactions between people ("users") and groups within the Network. Customer user licenses allow individuals to log in, easily update their own information, join and leave groups, post updates, and ask questions.  The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (created by the Network Office when a person is added and updated by the individual).
 
 ![](images/community-platform-overview.png)
 
@@ -12,7 +12,7 @@ Rather than having an individual simply associated with a site or not, the new s
 
 ## Making individual updates
 
-Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [log in to LTERHub](https://lternetwork.force.com/lterhub/s/login/) and choose the teal-colored <Start a Support Case> button. Include the new user's name, role, and email address. The LNO will create a contact and a user for them and trigger a message for them to log in and fill in other key information.
+Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [**log in to LTERHub**](https://lternetwork.force.com/lterhub/s/login/) and choose the teal-colored \<Start a Support Case\> button. Include the new user's name, role, and email address. The LNO will create a contact and a user for them and trigger a message for them to log in and fill in other key information.
 
 Once a user is created and they have logged in, they are able to update their own information from their user profile in the top right corner. User-editable information includes email (which automatically updates the login email within 24 hours), site and institutional affiliations, ORCID, social media accounts, and research interests. They can also join discussion groups and update committee memberships.
    
@@ -25,7 +25,7 @@ Usually, there are a few times a year when many people need to be added at once.
 *Note that Google sheets, unlike Excel sheets or csv files, save data continuously as it is entered.*
 
 ### Overall workflow ###
--  The LTERHub-ex-im file automatically creates a backup and downloads current information from the LTERHub **on the 15th of each month**. Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by logging into the LTERHub and [creating a case](https://lternetwork.force.com/lterhub/s/contactsupport). Your sheet will be refreshed at the same time edit access is granted. 
+-  The LTERHub-ex-im file automatically creates a backup and downloads current information from the LTERHub **on the 15th of each month**. Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by [**logging in to LTERHub**](https://lternetwork.force.com/lterhub/s/login/) and starting a support case (teal-colored button). Your sheet will be refreshed with the current data at the same time edit access is granted. 
 -  Using the instructions below, make edits to your site's personnel list. Where you do not have changes to make, simply leave the field blank or with the existing information.  Try to concentrate the editing into a short period of time to avoid the issue of users logging in and making their own conflicting edits.
 -  While you are making edits, your case remains open in LTERHub. When edits are completed, update your case to notify the LTER Network Office. 
 -  At this time, uploading back to LTERHub is not fully automated so that any unexpected behaviors can be quickly identified and corrected. When your upload has been completed, the spreadsheet will be refreshed and you will be notified, so you can easily confirm that the information is correct.
@@ -33,14 +33,16 @@ Usually, there are a few times a year when many people need to be added at once.
 
 ### Row and Column Descriptions ###
 
-**Rows:**
-**Row 1** lists the SalesForce names for each field. This assists in upload and cannot be edited.
+#### Rows ####
 
-**Row 2** lists the common-language descriptions of each field. **Row 2**  
+-  **Row 1** lists the SalesForce names for each field. This assists in upload and cannot be edited.
+
+-  **Row 2** lists the common-language descriptions of each field. 
    
-**Data rows:** Each data row represents an affiliation between an individual and a site in a particular role, for a specific period of time.  Within each sheet, records are sorted first by "Current"/"Former" status and then alphabetically by last name. Be aware that the same individual may have both current and former affiliations. 
+-  **Data rows:** Each data row represents an affiliation between an individual and a site in a particular role, for a specific period of time.  Within each sheet, records are sorted first by "Current" or "Former" status and then alphabetically by last name. Be aware that the same individual may have both current and former affiliations. 
 
-**Columns:**
+#### Columns ####
+
 -  **Database Keys:**
    -  A.  **Affiliation ID** *(hidden and protected)*: The unique key for the specific affiliation (role-site/institution-individual combination)
    -  B.  **Contact ID** *(hidden and protected)*: The unique key for the individual contact associated with that affiliation
@@ -72,9 +74,7 @@ Usually, there are a few times a year when many people need to be added at once.
 
 ### Specific Use Cases ###
 
-*  **New participants:** Add new site participants at the bottom of your site's sheet, below the existing entries. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them. For new participants with more than one role, include only the primary role at this stage. Follow the instructions below for "adding roles" to add additional affiliations. 
-   
-Fill in:	
+*  **New participants:** Add new site participants at the bottom of your site's sheet, below the existing entries. Often, individuals who are new to your site actually have a prior LTER identity. When they are using the same email address, these duplicates will be caught on creation. If they are using a new email address, the LNO will eventually find and resolve them. For new participants with more than one role, include only the primary role at this stage. Follow the instructions below for "adding roles" to add additional affiliations. Fill in:	
    * Last Name 
    * First Name
    * Middle Name (if known) 
