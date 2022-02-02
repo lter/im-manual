@@ -109,7 +109,8 @@ A few fields use limited options and will not accept any text other than the bel
     * **Information Manager:** A person at an LTER site that spends some or all of their time in the process of data and information management. This person may or may not be the site representative to the information management committee.
     * **Education Manager:** A person at an LTER site that spends some or all of their time in the process of education/outreach. This person may or may not be the site representative to the education/outreach committee.  
     * **Other Professional:** A person who may or may not hold a doctoral degree or its equivalent, who is considered a professional and is not reported as a Principal Investigator, Co-principal Investigator, Investigator, Postdoctoral Associate or Student. Examples include research associates, physicians, veterinarians, system experts, computer programmers and design engineers.
-    * **Technical/Research Staff:** Technicians and field research personnel. 
+    * **Technical/Research Staff:** Technicians and field research personnel.
+    * **Education/Communications Staff:** Educators or science-focused communicators.
     * **Administrative Staff:** Persons working on the project in a non-research capacity in an administrative role. 
     * **Other Staff:** Persons working on the project in a non-research capacity, such as draftsmen, animal caretakers, electricians and custodial personnel. 
     * **Interested Party:** A person who is associated with an LTER site or the Network through interest, educational programs, public outreach etc., may include educational or community partners, neighbors, board members, etc. 
