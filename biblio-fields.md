@@ -9,8 +9,8 @@ NSF uses a fairly narrow set of entry types for annual report and public access 
    * Required fields: author or editor, title, publisher, year
    * Optional fields: volume or number, series, address, edition, month, note
 * booklet- A work that is printed and bound, but without a named publisher or sponsoring institution.
-      * Required field: title
-      * Optional fields: author, howpublished, address, month, year, note
+   * Required field: title
+   * Optional fields: author, howpublished, address, month, year, note
 * inbook - A part of a book, which may be a chapter (or section or whatever) and/or a range of pages.
    * Required fields: author or editor, title, chapter and/or pages, publisher, year
    * Optional fields: volume or number, series, type, address, edition, month, note
@@ -21,24 +21,25 @@ NSF uses a fairly narrow set of entry types for annual report and public access 
    * Required fields: author, title, school, year, type (masters, doctoral)
    * Optional fields: address, month, note
 * proceedings - The proceedings of a conference
-      * Required fields: title, year
-      * Optional fields: editor, volume or number, series, address, month, organization, publisher, note
+   * Required fields: title, year
+   * Optional fields: editor, volume or number, series, address, month, organization, publisher, note
 * inproceedings - An article in a conference proceedings
-      * Required fields: author, title, booktitle, year
-      * Optional fields: editor, volume or number, series, pages, address, month, organization, publisher, note
+   * Required fields: author, title, booktitle, year
+   * Optional fields: editor, volume or number, series, pages, address, month, organization, publisher, note
 
 ### Additional standard BibTex entry types that are acceptable for the LTER Network bibliography
 
 * techreport - A report published by a school or other institution, usually numbered within a series (also appropriate for government reports and gray literature)
-      * Required fields: author, title, institution/organization, year
-      * Optional fields: type, number, address, month, note
+   * Required fields: author, title, institution/organization, year
+   * Optional fields: type, number, address, month, note
 * manual - Technical documentation
-      * Required field: title
-      * Optional fields: author, organization, address, edition, month, year, note
+   * Required field: title
+   * Optional fields: author, organization, address, edition, month, year, note
 * misc - Use this type when nothing else fits. (Appropriate for maps, patents, software, etc. Please strive to include as much detail as possible, especially year and howpublished)
-      * Required fields: none.
-      * Optional fields: author, title, howpublished, month, year, note.
+   * Required fields: none.
+   * Optional fields: author, title, howpublished, month, year, note.
 
 ### Sources:
 [Bibtex entry definitions and required fields](https://www.openoffice.org/bibliographic/bibtex-defs.html)
+
 [NSF reporting entry types](https://www.research.gov/common/robohelp/public/WebHelp/Project_Reports.htm#project_reports_htm_how_to_add_p_2803)
