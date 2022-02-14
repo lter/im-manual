@@ -2,7 +2,9 @@
 
 The LTER Network maintains a [Zotero group library](https://www.zotero.org/groups/2055673/lter_network/library) where we track publications (journal articles, reports, and theses) that have been made possible through LTER funding, collaborations, and activities. It does not include publications that preceded LTER funding at sites that now house LTER programs. The [publications web page](https://lternet.edu/bibliography/) on the LTER Network website draws its data from the Zotero library. The LTER Network Office searches Web of Science and adds new publications to the library monthly, but we strongly encourage sites to update their publication lists at least annually (generally around the time of their annual report to NSF). 
 
-**To do so:** 
+Zotero is becoming the most common system for maintaining a publication database at LTER sites, but if your site prefers EndNote or a custom database, you may provide your update in the form of a bibtex file. [See instructions](https://lter.github.io/im-manual/bibtex.md).
+
+**Zotero updates** 
 
 1. Set up a Zotero account and a group library.
 2. Download and install the Zotero desktop client and the browser add-on for the browser of your choice. 
