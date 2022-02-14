@@ -1,11 +1,23 @@
 # Tracking and Sharing LTER Publications #
 
-The LTER Network maintains a [Zotero group library](https://www.zotero.org/groups/2055673/lter_network/library) where we track publications (journal articles, reports, and theses) that have been made possible through LTER funding, collaborations, and activities. It does not include publications that preceded LTER funding at sites that now house LTER programs. The [publications web page](https://lternet.edu/bibliography/) on the LTER Network website draws its data from the Zotero library. The LTER Network Office searches Web of Science and adds new publications to the library monthly, but we strongly encourage sites to update their publication lists at least annually (generally around the time of their annual report to NSF). 
+The LTER Network maintains a [Zotero group library](https://www.zotero.org/groups/2055673/lter_network/library) where we track publications (journal articles, reports, and theses) that have been made possible through LTER funding, collaborations, and activities. It does not include publications that preceded LTER funding at sites that now house LTER programs. The [publications web page](https://lternet.edu/bibliography/) on the LTER Network website draws its data from the Zotero library. The LTER Network Office searches Web of Science monthly for all LTER grant numbers in the ackowledgements field and adds found publications to the library. We strongly encourage sites to update their publication lists at least annually (generally around the time of their annual report to NSF) beacuse our search strategy does not catch theses or publications where authors have not acknowledged your site by grant number. 
 
+**Please include**
+
+Journal articles, books, book chapters, maps, software, peer-reviewed conference papers (not posters or presentations), published reports, patents, Master’s and PhD theses.
+
+**Do not include**
+* Work that was simply inspired by proximity to LTER research. We are concerned that many of our lists include papers that are very tenuously related to LTER projects and this devalues the entire list. So please do not include papers that are not genuinely LTER-related. If the connection is genuine, but unlikely to be obvious to a casual observer, please include a note explaining the connection, in the “note” field.
+* Magazine and newspaper articles about LTER research. We have other methods for highlighting and sharing this information.
+* Research that preceded the funding of the LTER site. This is very appropriate for you to maintain as reference material on your site websites, but should not be included as a product of the LTER program.
+* Personal communications. Again -- great for your site record, but not needed for the Network record.
+* Abstracts for conference presentations or posters. These are legitimate products, but in the context of a 40-year program, they are relatively ephemeral, and make it look like we are inflating our numbers.
+* Unpublished work - this only creates more duplicates that need to be resolved.
+
+## Bibtex updates
 Zotero is becoming the most common system for maintaining a publication database at LTER sites, but if your site prefers EndNote or a custom database, you may provide your update in the form of a bibtex file. [See instructions](https://lter.github.io/im-manual/bibtex).
 
-**Zotero updates** 
-
+## Zotero updates 
 1. Set up a Zotero account and a group library.
 2. Download and install the Zotero desktop client and the browser add-on for the browser of your choice. 
 3. To facilitate sharing of publications that meet the criteria for inclusion in the Network bibliography, it's helpful to add a "for the Network" collection. Collections operate like tags. There's only one copy of the record -- it just appears in multiple collections. So when you update it (with, say added tags or a print publication date), it is updated in all the collections within your library where it exists.
@@ -18,15 +30,17 @@ Zotero is becoming the most common system for maintaining a publication database
 
 **Notes on item types**
 
-The place where item types mostly become a challenge is conference “papers.”  Many sites have entered conference presentations (i.e., abstracts) as conference papers, but they aren’t the same thing. Juried conference papers (where a full paper results and is reviewed and published) should be added to Zotero as conference papers.  Abstracts of meeting presentations (which don’t appear as papers) should be entered in Zotero under the  “presentation” item type. Also — NSF wants to receive those in your annual reports.   We do not want to include them in the Network bibliography.
+The place where item types mostly become a challenge is conference “papers.”  Many sites have entered conference presentations (i.e., abstracts) as conference papers, but they aren’t the same thing. Juried conference papers (where a full paper results and is reviewed and published) should be added to Zotero as conference papers.  Abstracts of meeting presentations (which don’t appear as papers) should be entered in Zotero under the  “presentation” item type. NSF accepts presentations in annual project reports, but the LNO does not include them in the Network bibliography.
+
+Find full details on the definition of item types and the required and optional fields on the [biblio-fields](https://lter.github.io/im-manual/biblio-fields) page.
 
 ## FAQ’s ##
 
 **Q:** Do you have the publications from our most recent annual report.
-**A:** The LNO does not receive your annual reports to NSF. The LTER Network Office is not part of NSF and NSF has very strict rules about who they share information with. The only way we would receive your annual report is if you send it to us. 
+**A:** The LNO does not receive your annual reports to NSF. The LTER Network Office is not part of NSF and NSF has very strict rules about how they share information. The only way we would receive your annual report is if you send it to us. 
 
 **Q:** Where did you get those most recent papers?
-**A:** The LNO has a Web of Science alert set up for anything that has “LTER” or "Long Term Ecological Research" in the funding acknowledgements. We get 30-50 hits per month on those (for all of LTER) and we add them to our Zotero library (tagged with the appropriate site) when they come in. That's where the newer articles come from. This is what allows us to keep the Network bibliography reasonably current. Otherwise, we would always be a year or more out of date.
+**A:** The LNO has a Web of Science alert set up for all LTER grant numbers in funding acknowledgements. We get 30-50 hits per month on those (for all of LTER) and we add them to our Zotero library (tagged with the appropriate site) when they come in. That's the source of the newer articles. This allows us to keep the Network bibliography reasonably current. Otherwise, we would always be a year or more out of date.
 
 **Q:** I see articles without dates or with only partial titles.
 **A:** Articles without dates probably were incomplete in the original file we received or they have only been published online (not yet in print) at the time we added them. When they come out in print, we generally receive a second alert, which we merge with the first. 
@@ -52,7 +66,7 @@ The place where item types mostly become a challenge is conference “papers.”
 > BioScience, Volume 60, Issue 11, Pages 931–940, doi: 10.1525/bio.2010.60.11.9
 
 ## Acknowledgements ##
-Many thanks to Tim Whiteaker for developing the search client linked to Zotero, Tommy Thelan, for customizing it for the LTER Network website, and to all the LTER information managers and administrators who have maintained the database over the years.
+Many thanks to Tim Whiteaker for developing the search client linked to Zotero; to Tommy Thelan, for customizing it for the LTER Network website; and to all the LTER information managers and administrators who have maintained the database over the years.
 
 Thanks, too, to the many creators and maintainers of Zotero, which is developed as a project by the non-profit [Corporation for Digital Scholarship](http://digitalscholar.org/). It was originally created at the [Center for History and New Media](https://en.wikipedia.org/wiki/Center_for_History_and_New_Media) at George Mason University.
 
