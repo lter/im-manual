@@ -17,15 +17,16 @@ Journal articles, books, book chapters, maps, software, peer-reviewed conference
 ## Bibtex updates
 Zotero is becoming the most common system for maintaining a publication database at LTER sites, but if your site prefers EndNote or a custom database, you may provide your update in the form of a bibtex file. [See instructions](https://lter.github.io/im-manual/bibtex).
 
-## Zotero updates 
+## Zotero updates
+
 1. Set up a Zotero account and a group library.
 2. Download and install the Zotero desktop client and the browser add-on for the browser of your choice. 
 3. To facilitate sharing of publications that meet the criteria for inclusion in the Network bibliography, it's helpful to add a "for the Network" collection. Collections operate like tags. There's only one copy of the record -- it just appears in multiple collections. So when you update it (with, say added tags or a print publication date), it is updated in all the collections within your library where it exists.
 4. Import your publications to your desktop Zotero client. Add a tag (LTER-XXX, where XXX= your site's 3-letter acronym) to indicate which site(s) are associated with the publication. If it is a cross-site collaborative publication, do your best to add the tags for related sites, as well as the "cross-site" tag. If it is an information management-related publication, add LTER-IM and if it is an education-related publication, add LTER-EDU. Do your best with these, but they don't have to be perfect. The LNO will also attend to adding necessary tags.
-5. Sync your desktop client with your online group library.
-6. Invite the LNO staff (lternco@gmail.com or LTER Network) to your group library.
-7. When you do a significant update to your library, let the LNO know and we'll drag the new publications from your library to the Network library and sync them so they appear in the LTER Network bibliography.
-8. There is not currently a way to autosync group libraries (which is probably a wise thing).
+5. Always include a DOI for items when available. This can help identify duplicates when LTER NCO builds a network-wide bibliography.
+6. Sync your desktop client with your online group library.
+7. Invite the LNO staff (lternco@gmail.com or LTER Network) to your group library.
+8. When you do a significant update to your library, let the LNO know and we'll drag the new publications from your library to the Network library and sync them so they appear in the LTER Network bibliography. There is not currently a way to autosync group libraries (which is probably a wise thing).
 9. After updating, the LNO will search for and resolve duplicates. The merge process adds all the tags that were associated with either of the duplicate publications to the resulting combined publication. For example: if Andrews Forest, and Harvard Forest each upload the same publication, marked with their own tags (LTER-AND and LTER-HFR), the merged publication will have both tags. This is a quick process for a few publications, but even so, it adds up for hundreds. If you can share with us when your last update occurred, it will help to focus the search.
 
 **Notes on item types**
