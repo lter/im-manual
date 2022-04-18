@@ -10,6 +10,8 @@ It's helpful to have an overview of how the community platform works before deta
 
 Rather than having an individual simply associated with a site or not, the new system maintains a record of prior associations and allows multiple simultaneous associations (with different sites, in different roles, and with different institutions). This is valuable for understanding how individuals interact with the Network across their careers. To accomplish it, however, we need to update **affiliations**, rather than just sites.
 
+The CRM also has an API function that will allow you to access the personnel list for your site and display it on your own website or access it for completing NSF reporting functions. The API was updated in April 2022 to return first and last names separately. [Documentation is available](https://drive.google.com/drive/u/0/folders/16o6nnSpGZ2asWDhU5PgP2tVHsJcirUGI) on the Google drive and John Porter wrote up a nice [DataBits article](https://lternet.edu/stories/using-the-lterhub-directory-api-to-perform-site-tasks/) on using it. 
+
 ## Making individual updates
 
 Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [**log in to LTERHub**](https://lternetwork.force.com/lterhub/s/login/) and choose the teal-colored \<Start a Support Case\> button. Include the new user's name, role, and email address. The LNO will create a contact and a user for them and trigger a message for them to log in and fill in other key information.
