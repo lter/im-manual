@@ -34,4 +34,4 @@ It is maintained by EDI and is used by several LTER sites such as HBR, JRN, NES,
 
 ## DEIMS
 
-DEIMS used to be a [Drupal](https://www.drupal.org/)-based solution for LTER websites. Drupal is a flexible programming environment that supports metadata based LTER websites well due to its database backend. It can also be used to generate EML. Recent efforts of upgrading from the original DEIMS to Drupal 8/9 are well documented in this [git repository](https://github.com/lter/Deims7-8-Migration) and modules for extracting and ingesting metadata have been developed.
+DEIMS used to be a [Drupal](https://www.drupal.org/)-based solution for LTER websites. Drupal is a flexible content management system / programming environment that supports metadata based LTER websites well due to its database backend. It can also be used to generate EML. Recent efforts of upgrading from the original DEIMS to Drupal 8/9 are well documented in this [git repository](https://github.com/lter/Deims7-8-Migration) and modules for extracting and ingesting metadata have been developed.

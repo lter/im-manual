@@ -10,11 +10,10 @@ Exactly *how* you go about creating or maintaining your site's website depends o
 
 ### Drupal and DEIMS
 
-Drupal is an open-source content management system for building and maintaining websites.
+[Drupal](https://www.drupal.org/) is an open-source content management system for building and maintaining websites.
 Several LTER sites use Drupal, and some of them joined forces to create DEIMS (the Drupal Ecological Information Management System, depending on whom you ask), a Drupal-based website solution which handles functionality common across LTER sites such as data catalog, bibliography, and personnel lists.
-DEIMS manages information in a database, and it can export ecological metadata language (EML) documents when it's time to archive a given data package.
-Although DEIMS lost favor amongst some LTER sites after its initial release due to challenges in upgrading Drupal, that pain is (supposedly) mitigated in more recent Drupal versions.
-If you already use DEIMS or Drupal, or the idea of a monolithic IM solution attracts you, reach out to the IMs at these sites to learn more: [KNZ](http://knz.lternet.edu/), [PIE](https://pie-lter.ecosystems.mbl.edu/).
+DEIMS was developed in Drupal 7 and upgrade instructions to Drupal 8/9 can be found in a [git repository](https://github.com/lter/Deims7-8-Migration).Drupal manages information in a database, and modules have been developed to import and export ecological metadata language (EML) documents.
+Developing a new website in Drupal is more complex than, e.g., WordPress, but offers more opportunities for customization. However, IM supporting developments at EDI and the IMC have been replacing most functionality Drupal has been lauded for. If you already use DEIMS or are familiar with Drupal reach out to the IMs at these sites to learn more: [NTL](https://lter.limnology.wisc.edu/), [KNZ](http://knz.lternet.edu/), [PIE](https://pie-lter.ecosystems.mbl.edu/).
 
 ### WordPress
 
