@@ -16,7 +16,7 @@ ezEML has developed into a very simple approach for generating metadata files at
   + Import EML snippets from other files. This option lets you set up something akin to a metadata database from which to import parts needed for a new EML file. 
   + Import datapackages (EML and data) from the EDI repository for updates and new versions.
   
-Extensive documentation may be found in the [user guide](https://ezeml.edirepository.org/eml/user_guide) or on [YouTube](https://www.youtube.com/playlist?list=PLi1PZkcSXdAKTtpgyHnd8GjtL6kRMMGFR)
+Extensive documentation may be found in the [user guide](https://ezeml.edirepository.org/eml/user_guide) or on [YouTube](https://www.youtube.com/playlist?list=PLi1PZkcSXdAKTtpgyHnd8GjtL6kRMMGFR).
 
 
 ## LTER Core Metabase
