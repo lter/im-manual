@@ -6,7 +6,7 @@ Post your question, and you'll likely get a response from other IMs active that 
 For general LTER questions, again try [Slack](https://lter.slack.com/), or just [email Marty Downs](mailto:downs@nceas.ucsb.edu), director of the LTER Network Office (LNO).
 If Marty gets tired of the spam, be sure to point her to this page so she can edit it and scold Tim for posting her address.
 
-For help with archiving data at the Environmental Data Initiative, [contact EDI](https://environmentaldatainitiative.org/contact/). 
+For help with archiving data at the Environmental Data Initiative, [email EDI](mailto:info@edirepository.org). Or join [EDI's Slack](https://edi-got-data.slack.com)
 They are generally very responsive and helpful.
 
 If you see something at an LTER site and you want to know how they did that, reach out to the IM.  We're a friendly community.
