@@ -40,7 +40,7 @@ Usually, there are a few times a year when many people need to be added at once.
 -  **Row 1** is blank
 -  **Row 2** lists the common-language descriptions of each field. 
 -  **Row 3** lists the SalesForce names for each field. This assists in upload and cannot be edited.   
--  **Data rows:** Each data row represents an affiliation between an individual and a site in a particular role, for a specific period of time.  Within each sheet, records are sorted first by "Current" or "Former" status and then alphabetically by last name. Be aware that the same individual may have both current and former affiliations. 
+-  **Data rows:** Each data row represents an **affiliation** between an individual and a site in a particular role, for a specific period of time. Thus, an individual may appear in multiple rows with different roles. Within each sheet, records are sorted first by "Current" or "Former" status and then alphabetically by last name. Be aware that the same individual may have both current and former affiliations, or may have multiple current affiliations. 
 
 #### Columns ####
 
