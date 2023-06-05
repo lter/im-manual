@@ -12,4 +12,5 @@ What do you need to do?
 * [Obtain a unique site identifier](https://lter.github.io/im-manual/site-identifier)
 * [Create (or edit) a site website](https://lter.github.io/im-manual/site-websites)
 * [Write Ecological Markup Language (EML)](https://lter.github.io/im-manual/eml)
+* [Establish a site GitHub Repository](github-organization-recs.md)
 * [Suggest edits to the IM Manual](https://lter.github.io/im-manual/edits)
