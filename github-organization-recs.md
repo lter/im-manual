@@ -14,9 +14,11 @@ We recommend adopting a common organization naming convention so that visitors t
 
 Note that organization names can be changed as needed without breaking an individual user's code but the link to GitHub-hosted websites/etc. will be changed if the organization name changes.
 
-## Organization Description
+## Organization Description & README
 
 We also recommend adding a short description of your site to the organization page, so that visitors have a big-picture overview of your site. In addition, the organization page is a great place to link to your site's main website, your [Research Organization Registry (ROR)](https://ror.org/search?query=LTER), data catalog, or other platforms and build your online presence.
+
+We also recommend that you create a README as a landing page for the Organization. To do this, create a public repository named ".github". Add a "profile" folder and put "README.md" in that folder. The content of the README will then appear on your organization's profile and will be the first thing visitors to the GitHub Organization will see.
 
 ## Administrators
 
