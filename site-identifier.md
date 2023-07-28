@@ -4,8 +4,8 @@ permalink: /site-identifier/
 
 
 # LTER Site Identifiers #
-*Proposed plan - developed by Marty Downs (LNO), Tim Whiteaker (BLE), An Nguyen (BLE)
-Draft: 2021-10-15*
+
+Draft plan: 2021-10-15 by Marty Downs (LNO), Tim Whiteaker (BLE), An Nguyen (BLE)*
 Updated: 2023-07-28
 
 Each LTER site has a unique entry in the Research Organization Registry.
@@ -87,5 +87,4 @@ Each site Information Manager should enter information relevant to their ROR ide
 1. Visit the [ROR Homepage](https://ror.org/) to learn about ROR IDs.
 2. Check if your LTER Program has an ROR ID on the [search page](https://ror.org/search).
  
-    - If the program does not exist in the ROR directory, or if it contains inaccuracies, request a change through the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform).
-    - When a site moves institutions or needs to update partners, simply request a change to ROR metadata through the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). The site identifier will remain the same, but parent institution or other metadata will be updated.
+    - If the program does not exist in the ROR directory, or if it contains inaccuracies, request a change through the [ROR update form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform). This is especially important when a site moves institutions or needs to update partners. The site identifier will remain the same, but parent institution or other metadata will be updated.
