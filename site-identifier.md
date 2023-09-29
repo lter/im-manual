@@ -78,10 +78,6 @@ EML does not allow to distinguish between a user id and an organization id withi
 A ROR ID consists of a unique 9-character string appended to the ROR domain. The preferred form of a ROR identifier is the entire URL: https://ror.org/02mhbdp94 rather than ror.org/02mhbdp94 or 02mhbdp94, although the ROR API will recognize all three of these forms as ROR IDs.
 
 
-## Action requested: ##
-Each site Information Manager should enter information relevant to their ROR identifier in the shared spreadsheet as described below. 
-
-
 ### How to request or update an ROR identifier ###
 
 1. Visit the [ROR Homepage](https://ror.org/) to learn about ROR IDs.
