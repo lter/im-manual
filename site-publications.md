@@ -23,21 +23,21 @@ Zotero is becoming the most common system for maintaining a publication database
 2. Download and install the Zotero desktop client and the browser add-on for the browser of your choice. 
 3. To facilitate sharing of publications that meet the criteria for inclusion in the Network bibliography, it's helpful to add a "for the Network" collection. Collections operate like tags. There's only one copy of the record -- it just appears in multiple collections. So when you update it (with, say added tags or a print publication date), it is updated in all the collections within your library where it exists.
 4. Import your publications to your desktop Zotero client. Add a tag (LTER-XXX, where XXX= your site's 3-letter acronym) to indicate which site(s) are associated with the publication. If it is a cross-site collaborative publication, do your best to add the tags for related sites, as well as the "cross-site" tag. If it is an information management-related publication, add LTER-IM and if it is an education-related publication, add LTER-EDU. Do your best with these, but they don't have to be perfect. The LNO will also attend to adding necessary tags.
-5. Always include a DOI for items when available. This can help identify duplicates when LTER NCO builds a network-wide bibliography.
+5. Always include a DOI for items when available. This can help identify duplicates when the LNO adds new items to a network-wide bibliography.
 6. Sync your desktop client with your online group library.
 7. Invite the LNO staff (lternco@gmail.com or LTER Network) to your group library.
-8. When you do a significant update to your library, let the LNO know and we'll drag the new publications from your library to the Network library and sync them so they appear in the LTER Network bibliography. There is not currently a way to autosync group libraries (which is probably a wise thing).
+8. **IMPORTANT**: When you do a significant update to your library, let the LNO know and we'll drag the new publications from your library to the Network library and sync them so they appear in the LTER Network bibliography. There is not currently a way to autosync group libraries (which is probably a wise thing).
 9. After updating, the LNO will search for and resolve duplicates. The merge process adds all the tags that were associated with either of the duplicate publications to the resulting combined publication. For example: if Andrews Forest, and Harvard Forest each upload the same publication, marked with their own tags (LTER-AND and LTER-HFR), the merged publication will have both tags. This is a quick process for a few publications, but even so, it adds up for hundreds. If you can share with us when your last update occurred, it will help to focus the search.
 
 **Notes on item types**
 
-The place where item types mostly become a challenge is conference “papers.”  Many sites have entered conference presentations (i.e., abstracts) as conference papers, but they aren’t the same thing. Juried conference papers (where a full paper results and is reviewed and published) should be added to Zotero as conference papers.  Abstracts of meeting presentations (which don’t appear as papers) should be entered in Zotero under the  “presentation” item type. NSF accepts presentations in annual project reports, but the LNO does not include them in the Network bibliography.
+Conference “papers” are a particular challenge. Juried conference papers (where a full paper results and is reviewed and published) should be added to Zotero as conference papers.  Abstracts of meeting presentations (which don’t appear as papers) should be entered in Zotero under the  “presentation” item type. NSF accepts presentations in annual project reports, but the LNO does not include them in the Network bibliography.
 
 Find full details on the definition of item types and the required and optional fields on the [biblio-fields](https://lter.github.io/im-manual/biblio-fields) page.
 
 ## FAQ’s ##
 
-**Q:** Do you have the publications from our most recent annual report.
+**Q:** Do you have the publications from our most recent annual report?
 **A:** The LNO does not receive your annual reports to NSF. The LTER Network Office is not part of NSF and NSF has very strict rules about how they share information. The only way we would receive your annual report is if you send it to us. 
 
 **Q:** Where did you get those most recent papers?
