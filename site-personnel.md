@@ -28,7 +28,7 @@ Usually, there are a few times a year when many people need to be added at once.
 
 ### Overall workflow ###
 -  The LTERHub-ex-im file automatically creates a backup and downloads current information from the LTERHub **on the 15th of each month**. If your edits have not been pushed up to the database when this happens, they will be lost.
--  Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by [**logging in to LTERHub**](https://lternetwork.force.com/lterhub/s/login/) and starting a support case (teal-colored button). 
+-  Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by emailing Marty. 
 -  Using the instructions below, make edits to your site's personnel list. Where you do not have changes to make, simply leave the field blank or with the existing information. 
 -  While you are making edits, your case remains open in LTERHub. When edits are completed, notify the LTER Network Office - either by email or by submitting a case in LTERHub. 
 -  At this time, data is still being manually pushed to LTERHub, so that any unexpected behaviors can be quickly identified and corrected. When we have pushed your data, we will notify you, so you can easily confirm that the information is correct.
