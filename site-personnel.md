@@ -14,11 +14,11 @@ The CRM also has an API function that will allow you to access the personnel lis
 
 ## Making individual updates
 
-Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, [**log in to LTERHub**](https://lternetwork.force.com/lterhub/s/login/) and choose the teal-colored \<Start a Support Case\> button. Include the new user's name, role, and email address. The LNO will create a contact and a user for them and trigger a message for them to log in and fill in other key information.
+Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, simply email Marty with the new user's name, role, and email address. The LNO will create a contact and a user for them and trigger a message for them to log in and fill in other key information.
 
 Once a user is created and they have logged in, they are able to update their own information from their user profile in the top right corner. User-editable information includes email (which automatically updates the login email within 24 hours), site and institutional affiliations, ORCID, social media accounts, and research interests. 
    
-If information needs to be updated that is not user-editable (or a user is unwilling to edit their own information), start a support case, as above, and describe the needed change(s).
+If information needs to be updated that is not user-editable (or a user is unwilling to edit their own information), email Marty and describe the needed change(s).
 
 ## Making bulk updates **(new January 12, 2022)**
 
