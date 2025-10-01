@@ -1,10 +1,12 @@
 # LTER Information Management Manual
 
-::: {.callout-important collapse="false"}
-### IM Manual has moved
+ <div style="background-color: #fad35f; padding: 20px; border-radius: 5px;">
+## IM Manual has moved
 
 In summer of 2025, this version of this LTER IM manual was deprecated. Content was incorporated into the combine network-docs set of documentation.
 Find the current version of the manual at [https://lter.github.io/docs-network/im/home.html](https://lter.github.io/docs-network/im/home.html).
+    </div>
+
 :::
 
 This manual gathers in one place the current practices and procedures that apply to information management **within the LTER Network**. It does not aspire to be a single source of information and resources for information management more generally -- nor even for the myriad best practices that have been established through IM collaboration in the LTER Network. 
